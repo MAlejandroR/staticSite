@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPIFP Los Enlaces – Desarrollo Web Entorno Servidor</title>
+    <link>https://malejandror.github.io/staticSite/</link>
+    <description>Recent content in Desarrollo Web Entorno Servidor on CPIFP Los Enlaces</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Wed, 06 Oct 2021 14:41:37 +0200</lastBuildDate>
+    
+	  <atom:link href="https://malejandror.github.io/staticSite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+{{ define "main" }}
+<h1>Tabla de contenidos al principio</h1>
+{{ with .Content }}
+<h1>Tabla de contenidos al final</h1>
+
+{{ . }}
+{{ end }}
+{{ end }}
