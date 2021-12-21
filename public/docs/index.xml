@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPIFP Los Enlaces – La web</title>
-    <link>https://dwes.infenlaces.com/docs/</link>
+    <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/</link>
     <description>Recent content in La web on CPIFP Los Enlaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://dwes.infenlaces.com/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://dwes.infenlaces.com/hugo/staticSite/public/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: Instalación</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/1.-instalacion/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/1.-instalacion/</link>
       <pubDate>Mon, 04 Oct 2021 12:01:52 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/1.-instalacion/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/1.-instalacion/</guid>
       <description>
         
         
@@ -160,7 +160,7 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 &lt;p&gt;En ella creamos un nuevo sitio con el comando &lt;em&gt;new&lt;/em&gt; del &lt;a href=&#34;https://gohugo.io/commands/hugo/&#34;&gt;CLI de hugo&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#000&#34;&gt;$&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;hugo&lt;/span&gt; &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;site&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;nombre_del_sitio&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Una vez que creamos un sitio nuevo, observamos cómo se genera una carpeta o directorio con el nombre del sitio creado. Dentro de ella vemos una estructura de directorios &lt;a href=&#34;https://gohugo.io/getting-started/directory-structure/&#34;&gt;(Web de referencia sobre los directorios)&lt;/a&gt;  que hay que entender.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/directory_tree_new_project.png&#34; alt=&#34;Directorios creados&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/directory_tree_new_project.png&#34; alt=&#34;Directorios creados&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Aquí tienes un &lt;a href=&#34;https://desarrolloweb.com/articulos/componentes-principales-hugo-framework&#34;&gt;artículo&lt;/a&gt; muy claro sobre los directorios creados.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -212,11 +212,11 @@ Esta carpeta es donde se va a establecer el tema, layout o plantilla base a part
     </item>
     
     <item>
-      <title>Docs: Plantilla</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/2.-temas/</link>
+      <title>Docs: Temas o layouts base</title>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/2.-temas/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:24 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/2.-temas/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/2.-temas/</guid>
       <description>
         
         
@@ -292,7 +292,7 @@ Ahora toca modificar el fichero de configuración
 &lt;/div&gt;
 
 &lt;p&gt;Nos abrirá un puerto en el navegador según nos muestre la salida en el terminal con el puerto abierto y veremos nuestro proyecto&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/first_page.png&#34; alt=&#34;Página sitio inicial&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/first_page.png&#34; alt=&#34;Página sitio inicial&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Dependiendo del tema, habrá un contenido u otro. Este tema en concreto nos muestra el contenido de una página &lt;strong&gt;themes/relearn/layouts/index.html&lt;/strong&gt;.
 Si quisiéramos cambiar el contenido de la página, en lugar de cambiar el fichero, lo que haríamos es copiar el fichero en la carpeta &lt;strong&gt;layout&lt;/strong&gt; del directorio del proyecto. volveremos a esto más adelante.&lt;/p&gt;
 &lt;h3 id=&#34;práctica&#34;&gt;Práctica&lt;/h3&gt;
@@ -323,10 +323,10 @@ Si quisiéramos cambiar el contenido de la página, en lugar de cambiar el fiche
     
     <item>
       <title>Docs: Contenido</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/3.-contenido/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/3.-contenido/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:24 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/3.-contenido/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/3.-contenido/</guid>
       <description>
         
         
@@ -572,7 +572,7 @@ Por ejemplo podría ser parte  del contenido de este curso visto anteriormente&l
 ### Arrays_formularios.md
 ### OOP.md
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con esto nos aparecerá  la siguiente estructura:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/estructura_content.png&#34; alt=&#34;contenido ejemplo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/estructura_content.png&#34; alt=&#34;contenido ejemplo&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Ahora completa los ficheros con contenido (no hace falta que haya muchos, mejor que tenga sentido, que vayas realizando tu portfolio, que sea tu forma de presentarte y mostrar a los demás en qué estás trabajando, puede ser un blog, &amp;hellip;&lt;/p&gt;
 &lt;p&gt;Recuerda cómo se crean las secciones, ficheros _index y ficheros de contenido en este template&lt;/p&gt;
 &lt;p&gt;También podrías usar la estructura anterior e ir completándola con esquemas, resúmenes de los aspectos que vayas aprendiendo en el curso.&lt;/p&gt;
@@ -589,10 +589,10 @@ Por ejemplo podría ser parte  del contenido de este curso visto anteriormente&l
     
     <item>
       <title>Docs: Shortcode</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/4.-shortcode/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/4.-shortcode/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:53 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/4.-shortcode/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/4.-shortcode/</guid>
       <description>
         
         
@@ -670,10 +670,10 @@ Si tienes alguna duda, pregunta o envía un mensaje para aclarar. Mucho mejor us
     
     <item>
       <title>Docs: Personalizar la plantilla</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/5.-estilo_plantilla/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/5.-estilo_plantilla/</link>
       <pubDate>Fri, 22 Oct 2021 16:23:31 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/5.-estilo_plantilla/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/5.-estilo_plantilla/</guid>
       <description>
         
         
@@ -711,7 +711,7 @@ Identifiquemos esos elementos en nuestra plantilla y veamos cómo modificarlos p
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Partes de la plantilla&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/partes_plantilla_estilo.png&#34; alt=&#34;Partes de la plantilla&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/partes_plantilla_estilo.png&#34; alt=&#34;Partes de la plantilla&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -731,7 +731,7 @@ La carpeta
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Fichero logo.html del partial en relearn&lt;/strong&gt;
-&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/logo/partial_logo.png&#34; alt=&#34;partial logo.html&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/logo/partial_logo.png&#34; alt=&#34;partial logo.html&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -755,7 +755,7 @@ La carpeta
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Ficheros para establecer nuestro logo&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/logo/ficheros_logo.png&#34; alt=&#34;partial logo.html&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/logo/ficheros_logo.png&#34; alt=&#34;partial logo.html&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -813,7 +813,7 @@ Copiamos nuestro logo en la carpeta static y lo especificamos en un elemento
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Estructura de ficheros&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/logo/estructura_directorios_logo.png&#34; alt=&#34;Estructura de ficheros&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/logo/estructura_directorios_logo.png&#34; alt=&#34;Estructura de ficheros&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -824,7 +824,7 @@ Copiamos nuestro logo en la carpeta static y lo especificamos en un elemento
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Sitio web con el logo actualizado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/sitio_web_logo.png&#34; alt=&#34;Plantilla con logo actualizado&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/sitio_web_logo.png&#34; alt=&#34;Plantilla con logo actualizado&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -868,7 +868,7 @@ Por ejemplo, vamos a añadir 3 items&lt;/p&gt;
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Menú principal ubicado en la parte izquierda&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/menu/menu_izquierdo.png&#34; alt=&#34;Menú parte izquierda&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/menu/menu_izquierdo.png&#34; alt=&#34;Menú parte izquierda&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -894,7 +894,7 @@ other = &amp;#34;Más opciones&amp;#34;
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Menú con título establecido&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/menu/menu_titulo.png&#34; alt=&#34;Menú con título &#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/menu/menu_titulo.png&#34; alt=&#34;Menú con título &#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -938,10 +938,10 @@ other = &amp;#34;Más opciones&amp;#34;
 &lt;td&gt;themeVariant = &amp;quot;&amp;quot;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/style_red.png&#34; alt=&#34;Thema color rojo&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/style_blue.png&#34; alt=&#34;Thema color blue &#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/style_green.png&#34; alt=&#34;Thema color green&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/style_default.png&#34; alt=&#34;Thema color por defecto&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/style_red.png&#34; alt=&#34;Thema color rojo&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/style_blue.png&#34; alt=&#34;Thema color blue &#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/style_green.png&#34; alt=&#34;Thema color green&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/style_default.png&#34; alt=&#34;Thema color por defecto&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -953,7 +953,7 @@ El color se carga, ya que en realidad lo que hacemos es establecer los &lt;stron
    &lt;p&gt;ç
 &lt;strong&gt;Ficheros con diferentes temas&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/temas.png&#34; alt=&#34;Temas en relearn&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/temas.png&#34; alt=&#34;Temas en relearn&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -970,7 +970,7 @@ Tras modificar dos colores de fondo bg y el color de la letra del título queda 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;**Nuevo estilo de la página **&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/pagina_nuevo_estilo.png&#34; alt=&#34;página habiendo modificado el estilo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/pagina_nuevo_estilo.png&#34; alt=&#34;página habiendo modificado el estilo&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -991,7 +991,7 @@ Los parámetros modificados son los siguientes&lt;/p&gt;
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Estilo de la página con el home modificado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/pagina_home_modificado.png&#34; alt=&#34;Página con home modificado&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/pagina_home_modificado.png&#34; alt=&#34;Página con home modificado&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1011,7 +1011,7 @@ Una pequeña modificación y observamos la actualización en la página
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Footer del  menú modificado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/css/actualizado_footer_menu.png&#34; alt=&#34;Imagen de footer actualizado&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/css/actualizado_footer_menu.png&#34; alt=&#34;Imagen de footer actualizado&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1053,10 +1053,10 @@ Una pequeña modificación y observamos la actualización en la página
     
     <item>
       <title>Docs: Multilenguaje</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/6.-multilenguaje/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/6.-multilenguaje/</link>
       <pubDate>Tue, 05 Oct 2021 20:02:27 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/6.-multilenguaje/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/6.-multilenguaje/</guid>
       <description>
         
         
@@ -1132,7 +1132,7 @@ para adaptar las páginas en el lenguaje deseado&lt;/p&gt;
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Listado de idiomas configurado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/relearn/lang/listado_idiomas.png&#34; alt=&#34;imagen de lista de idiomas&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/lang/listado_idiomas.png&#34; alt=&#34;imagen de lista de idiomas&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1194,7 +1194,7 @@ Para ello observa y utiliza la estructura de controlc
 &lt;p&gt;Con uso podemos usar la librería &lt;strong&gt;&lt;a href=&#34;https://developer.mozilla.org/es/docs/Mozilla/Add-ons/WebExtensions/API/i18n&#34;&gt;i18n&lt;/a&gt;&lt;/strong&gt; para traducciones (internacionalización)&lt;/p&gt;
 &lt;p&gt;En la estructura de carpetas, dentro de &lt;strong&gt;themes&lt;/strong&gt;, hay ficheros para traducir o establecer identificadores que se pueden adaptar a diferentes idiomas.
 Vemos cómo estos ficheros empiezan con dos letras que identifican el idioma
-&lt;a href=&#34;https://dwes.infenlaces.com/static/lista_i18n_traducciones.png&#34;&gt;Lista de ficheros de traducciones&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/static/lista_i18n_traducciones.png&#34;&gt;Lista de ficheros de traducciones&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Vamos a establecer nuevos valores para cambiar las siguientes palabras. Vemos que la palabra de buscador ya sí que se adapta&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Home&lt;/li&gt;
@@ -1239,7 +1239,7 @@ No olvides modificar los ficheros copiándolos previamente a tu carpeta &lt;stro
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/multilingual/#translate-your-content&#34;&gt;https://gohugo.io/content-management/multilingual/#translate-your-content&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;La solución que aplicamos es tener un directorio para cada uno de los idiomas.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/directorios_idiomas.png&#34; alt=&#34;Listado de directorios&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/directorios_idiomas.png&#34; alt=&#34;Listado de directorios&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Una vez que lo hemos establecido, debemos indicar en el fichero de configuración con la variable &lt;strong&gt;contentDir&lt;/strong&gt;, el directorio dónde se ubicarán los ficheros traducidos a ese idioma, de forma que en el caso que estamos añadiendo esta variable, nos debería quedar&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Languages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
     &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;Languages&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;en&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
@@ -1264,7 +1264,7 @@ No olvides modificar los ficheros copiándolos previamente a tu carpeta &lt;stro
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Crear ficheros md&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/creacion_ficheros_md.png&#34; alt=&#34;Crear ficheros&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/creacion_ficheros_md.png&#34; alt=&#34;Crear ficheros&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1313,11 +1313,11 @@ En el caso de learn se añade usando la siguiente sintaxis&lt;/p&gt;
     </item>
     
     <item>
-      <title>Docs: Plantillas</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/7.-plantillas/</link>
+      <title>Docs: Plantillas </title>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/7.-plantillas/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:43 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/7.-plantillas/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/7.-plantillas/</guid>
       <description>
         
         
@@ -1396,7 +1396,7 @@ Por ejemplo podría tener una plantilla  personalizada, podríamos escribir lo s
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;El resultado serán&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://dwes.infenlaces.com/images/plantillas/plantilla_customer.png&#34; alt=&#34;plantilla personalizada&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/plantillas/plantilla_customer.png&#34; alt=&#34;plantilla personalizada&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1525,21 +1525,33 @@ Por ejemplo podría tener una plantilla  personalizada, podríamos escribir lo s
 
   &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;{{&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;end&lt;/span&gt;&lt;span style=&#34;color:#f8f8f8;text-decoration:underline&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;práctica&#34;&gt;Práctica&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Ahora practica tú&lt;/h4&gt;
+
+    😃
+En este caso puedes porbar a crear una plantilla personal  y mostrarla
+
+&lt;/div&gt;
+
+
       </description>
     </item>
     
     <item>
       <title>Docs: Datos externos</title>
-      <link>https://dwes.infenlaces.com/docs/teoria/8.-datos/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/8.-datos/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:01 +0200</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/teoria/8.-datos/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/8.-datos/</guid>
       <description>
         
         
         &lt;h1 id=&#34;consumir-datos-de-ficheros-con-estructura&#34;&gt;Consumir datos de ficheros con estructura&lt;/h1&gt;
 &lt;p&gt;La ubicación del fichero debe de estar en &lt;em&gt;&lt;strong&gt;data&lt;/strong&gt;&lt;/em&gt;
+Podemos consumir datos de diferentes fuentes, como un fichero json, o csv, o un directorio con imágenes o un fichero csv compartido en drive
 Por ejemplo vamos a ubicar ahí un fichero de cadenas de tv sacado de github y ubicado en un proyecto de github
 &lt;a href=&#34;https://github.com/MAlejandroR/staticSite/blob/main/data/tv.json&#34;&gt;https://github.com/MAlejandroR/staticSite/blob/main/data/tv.json&lt;/a&gt;
 Este fichero es un array de elemetos ***json *** (parejas variable valor en un fichero)
@@ -1552,32 +1564,273 @@ Cada json contiene &lt;strong&gt;name&lt;/strong&gt; y &lt;strong&gt;channels&lt
 &lt;li&gt;options&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Se trataría de crear una plantilla que permita visualizar el contenido del array&lt;/p&gt;
-&lt;p&gt;Para ello vamos a crear una plantilla &lt;em&gt;&lt;strong&gt;html&lt;/strong&gt;&lt;/em&gt; cuyo contenido sea recorrer el array&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
-   {{ range  .Site.Data.tv }}
-       &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;li&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;  {{ .name }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;li&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
-       {{ range .channels }}
-           &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .web}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
-           &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{.logo}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .name }}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
-           &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
-  
-        {{ end }}
-   {{ end }}
-      &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;p&gt;Para ello vamos a crear una plantilla &lt;em&gt;&lt;strong&gt;html&lt;/strong&gt;&lt;/em&gt; cuyo contenido sea recorrer el array, por ejemplo la llamamos 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hay que entender el doble bucle que hay cuya sintaxis, en lugar del for al que estamos acostumbrados es &lt;strong&gt;range&lt;/strong&gt;.
+    datos_tv.html
+
+&lt;/span&gt;
+. La debemos de ubicar bajo el directorio 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    _layouts/_defaults
+
+&lt;/span&gt;
+, siguiendo las especificaciones vistas en el apartado anterior.
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;**El código de la plantilla **&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  {{ range  .Site.Data.tv }}
+      &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;li&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;  {{ .name }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;li&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+      {{ range .channels }}
+          &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .web}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{.logo}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .name }}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+          &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+ 
+       {{ end }}
+  {{ end }}
+     &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;La ubicación del fichero&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/plantillas/plantilla_tv.png&#34; alt=&#34;fichero plantilla para canales de tv&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+Hay que entender el doble bucle que hay cuya sintaxis, en lugar del for al que estamos acostumbrados es &lt;strong&gt;range&lt;/strong&gt;.
 En definitiva lo que hace es recorrer el array inicial y para cada elemento recorro el elemento &lt;em&gt;channels&lt;/em&gt; que como se puede ver es otro array&lt;/p&gt;
 &lt;p&gt;Observa la sintaxis y mira cómo cada &lt;strong&gt;range&lt;/strong&gt; tiene su &lt;strong&gt;end&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Una vez que hemos creado la plantilla, vamos a consumirla desde un fichero de markdown.
+Lo único que tendremos que hacer es cargar esa página con la plantilla que hemos creado previamente.
+Cómo queremos que se cargue la misma estructura que todas las plantillas de nuestro sitio web, debemos buscar la plantilla base e incluir los elementos en esta plantilla
+La plantilla base de las páginas está en 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    themes/layouts/_defaults/single.html
+
+&lt;/span&gt;
+ cuyo contenido editamos y copiamos en nuestra plantilla de 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    datos_tv.html
+
+&lt;/span&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;Plantilla de datos_tv.html incluyendo la plantilla base.html&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{- partial &amp;#34;header.html&amp;#34; . }}
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hr&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+{{ partial &amp;#34;content.html&amp;#34; . }}
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hr&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hr&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    {{ range  .Site.Data.tv }}
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;li&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;  {{ .name }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;li&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    {{ range .channels }}
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .web}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{.logo}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .name }}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+    {{ end }}
+    {{ end }}
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;footer&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;footline&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    {{- with .Params.LastModifierDisplayName }}
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;fas fa-user&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;mailto:{{ $.Params.LastModifierEmail }}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;{{ . }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; {{ with $.Date }} &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;fas fa-calendar&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; {{ .Format &amp;#34;02/01/2006&amp;#34; }}{{ end }}
+    {{- end }}
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;footer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+{{- partial &amp;#34;f
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+Ahora creamos la página markdown que usará esta plantilla, la creamos bajo practica con el comando de 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    hugo cli
+
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new static/practica/datos.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;página markdown que usa esta plantilla datos.md&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;---
+title: &amp;#34;Obtener Json&amp;#34;
+date: 2021-10-21T13:31:19+02:00
+draft: false
+layout: datos_tv
+---
+&lt;span style=&#34;color:#000080;font-weight:bold&#34;&gt;# Listado de canales de tv
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Vemos que especificamos en el front matter la variable 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    layout
+
+&lt;/span&gt;
+. El resultado de la ejecución la podemos ver:&lt;/p&gt;
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;**El resultado de la ejecución **&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/plantillas/canales_tv.png&#34; alt=&#34;Ejecución de carga de datos&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h1 id=&#34;consumir-ficheros-de-un-directorio&#34;&gt;Consumir ficheros de un directorio&lt;/h1&gt;
+&lt;p&gt;En este caso vamos a tener un fichero con imágenes o fotografías  en un directorio
+Podemos crear un fichero 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    json o yaml o toml
+
+&lt;/span&gt;
+ para especificar la ubicación de los ficheros y los datos que queramos sobre cada uno de ellos.
+En este caso creamos las imágenes en 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    /static/images/carousel
+
+&lt;/span&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Comentario&lt;/h4&gt;
+
+    He creado con nombre carousel, pues pretendía que se viesen como una galería de imágenes usando este efecto visual de bootstrap, pero no he conseguido cargarlo. Pendiente de modificarlo, pero dejo este ejemplo sin visualización de carousel.
+
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;Ficheros de imágenes&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/data/imagenes.png&#34; alt=&#34;Ficheros de imágenes para ver&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;Creamos la plantilla content/&amp;hellip;&amp;hellip;/carousel.md&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt; &lt;span style=&#34;color:#a40000&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;Creamos la plantilla html /layoout/_defoult/carousel.html&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{- partial &amp;#34;header.html&amp;#34; . }}
+
+{{ partial &amp;#34;content.html&amp;#34; . }}
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!-- SECCION PARA CARGAR LAS IMÁGENES--&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;mic&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;carousel slide &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;data-ride&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;carousel&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;carousel-inner&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+        {{ range $elem_index, $elem_val := .Site.Data.carrusel }}
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;carousel-item {{ if eq $elem_index &amp;#34;1&amp;#34; }} active {{ end }}&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;d-block  w-100&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .image  | relURL }}&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#c4a000&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;{{ .name }}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+        {{ end }}
+    &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;div&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+
+
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;footer&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;footline&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+  {{- with .Params.LastModifierDisplayName }}
+  &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;fas fa-user&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;mailto:{{ $.Params.LastModifierEmail }}&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;{{ . }}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; {{ with $.Date }} &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#39;fas fa-calendar&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt; {{ .Format &amp;#34;02/01/2006&amp;#34; }}{{ end }}
+  {{- end }}
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;footer&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+{{- partial &amp;#34;footer.html&amp;#34; . }}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Y creamos los ficheros en la carpeta de 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    data
+
+&lt;/span&gt;
+ que van a referenciar a cada una de las imágenes. Lo vamos a establecer con formato 
+&lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
+
+    json
+
+&lt;/span&gt;
+
+
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;Listado de ficheros json para referenciar las imágens&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;http://dwes.infenlaces.com/hugo/staticSite/public/images/relearn/data/ficheros_json_imagenes.png&#34; alt=&#34;Listado de ficheros para referenciar imágenes local&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+El contenido de estos ficheros es igual salvo que cada uno referencia a una images&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;imagen 1&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;image&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/images/carrusel/img1.jpg&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;práctica&#34;&gt;Práctica&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Ahora practica tú&lt;/h4&gt;
+
+    &lt;p&gt;😃
+**Carga el ficheros de datos **&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Carga el fichero de canales visto en este tema&lt;/li&gt;
+&lt;li&gt;Crea un directorio con imágenes y muestralas&lt;/li&gt;
+&lt;li&gt;Investiga e intenta cargar los datos de un fichero csv que tengas en tu drive&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+
 
       </description>
     </item>
     
     <item>
       <title>Docs: Primera tarea</title>
-      <link>https://dwes.infenlaces.com/docs/practicas/practica1/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica1/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/practicas/practica1/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica1/</guid>
       <description>
         
         
@@ -1885,10 +2138,10 @@ bar := &amp;quot;foo&amp;quot;;
     
     <item>
       <title>Docs: Segunda tarea</title>
-      <link>https://dwes.infenlaces.com/docs/practicas/practica2/</link>
+      <link>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica2/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://dwes.infenlaces.com/docs/practicas/practica2/</guid>
+      <guid>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica2/</guid>
       <description>
         
         

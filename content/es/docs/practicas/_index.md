@@ -3,6 +3,7 @@ title: "Prácticas"
 linkTitle: "Prácticas con hugo "
 weight: 3
 date: 2021-09-15
+draft: true
 description: >
   Prácticas con hugo: generación de sitios estáticos
 ---

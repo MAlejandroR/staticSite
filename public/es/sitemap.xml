@@ -2,120 +2,120 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dwes.infenlaces.com/docs/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/docs/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/docs/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/docs/"
                 />
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/practicas/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/1.-instalacion/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/1.-instalacion/</loc>
     <lastmod>2021-10-04T12:01:52+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/2.-temas/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/2.-temas/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/3.-contenido/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/3.-contenido/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/4.-shortcode/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/4.-shortcode/</loc>
     <lastmod>2021-10-04T13:19:53+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/5.-estilo_plantilla/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/5.-estilo_plantilla/</loc>
     <lastmod>2021-10-22T16:23:31+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/6.-multilenguaje/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/6.-multilenguaje/</loc>
     <lastmod>2021-10-05T20:02:27+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/7.-plantillas/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/7.-plantillas/</loc>
     <lastmod>2021-10-04T13:19:43+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/8.-datos/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/8.-datos/</loc>
     <lastmod>2021-10-04T13:20:01+02:00</lastmod>
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/practicas/practica1/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica1/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/docs/practicas/practica1/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/docs/practicas/practica1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/docs/practicas/practica1/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica1/"
                 />
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/practicas/practica2/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica2/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/docs/practicas/practica2/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/docs/practicas/practica2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/docs/practicas/practica2/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/docs/practicas/practica2/"
                 />
   </url><url>
-    <loc>https://dwes.infenlaces.com/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/</loc>
     <lastmod>2021-10-22T16:23:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/"
                 />
   </url><url>
-    <loc>https://dwes.infenlaces.com/docs/teoria/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/docs/teoria/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/docs/teoria/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/docs/teoria/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/docs/teoria/"
                 />
   </url><url>
-    <loc>https://dwes.infenlaces.com/categories/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/categories/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/categories/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/categories/"
                 />
   </url><url>
-    <loc>https://dwes.infenlaces.com/tags/</loc>
+    <loc>http://dwes.infenlaces.com/hugo/staticSite/public/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://dwes.infenlaces.com/en/tags/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://dwes.infenlaces.com/tags/"
+                href="http://dwes.infenlaces.com/hugo/staticSite/public/tags/"
                 />
   </url>
 </urlset>
