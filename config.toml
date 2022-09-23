@@ -1,0 +1,185 @@
+#baseURL = 'https://malejandror.github.io/staticSite/'
+#baseURL = 'http://dwes.infenlaces.com/hugo/staticSite/public/'
+baseURL = 'http://manuel.infenlaces.com/dwes/hugo/'
+languageCode = 'es-ES'
+title = 'DWES Distancia'
+theme =['docsy']
+
+
+
+# Para poder cargar emogin https://www.webfx.com/tools/emoji-cheat-sheet/
+enableEmoji = true
+
+#Establecer el idioma predeterminado
+defaultContentLanguage="es"
+contentDir ="content/es"
+
+
+
+# Highlighting config (código fuente con estilo)
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic = false
+#pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "tango"
+
+
+#Parámetros para que trabaje mermaid
+ [params.mermaid]
+enable = true
+
+#Evitando que se despliegue  dos menús a la vez en la ventana izquierda
+
+# User interface configuration
+[params.ui]
+
+# Enable to show the side bar menu in its compact state.
+sidebar_menu_compact = true
+#  Set to true to disable breadcrumb navigation.
+breadcrumb_disable = false
+#  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
+sidebar_search_disable = false
+#  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
+navbar_logo = true
+# Set to true to disable the About link in the site footer
+footer_about_disable = false
+#  ui.sidebar_menu_compact = true
+
+[markup]
+  [markup.highlight]
+      guessSyntax = "false"
+
+
+
+ [params.markmap]
+enable = true
+
+  # Add your release versions here
+#[[params.versions]]
+#  version = "master"
+#  url = "https://master.kubeflow.org"
+
+#[[params.versions]]
+#  version = "v0.2"
+#  url = "https://v0-2.kubeflow.org"
+
+#[[params.versions]]
+#  version = "v0.3"
+#  url = "https://v0-3.kubeflow.org"
+
+
+
+[languages]
+[languages.es]
+  title = "CPIFP Los Enlaces"
+  description = "Centro Público Integrado. Ciclo de distancia"
+  languageName ="Español"
+  contentDir = "content/es"
+  time_format_default = "02.01.2006"
+  time_format_blog = "02.01.2006"  
+  weight = 1
+[languages.en]
+  title = "CPIFP The Enlaces"
+  description = "advanced vocational training Los Enlaces"
+  languageName ="English"
+  contentDir = "content/en"
+# Weight used for sorting.
+  [[languages.es.menu.main]]
+    name = "Wiki del curso"
+    weight = 10
+    pre = "<img src='/dwes/hugo/images/wikieducator.jpeg'  height=20px class='img-circle mr-2' />"
+    url = "https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Distancia/Contenido"
+    post = "<span class='alert'>Teoría</span>"
+
+[[languages.es.menu.main]]
+    name = "php"
+    weight = 12
+    url = "https://manuel.infenlaces.com/dwes/practicas"
+    pre = "<img src='/dwes/hugo/images/php.jpeg'  height=20px class='img-circle mr-2' />"
+    post = "<span class='alert'>Ejercicios</span>"
+[[languages.es.menu.main]]
+    identifier="moodle"
+     name = "Moodle"
+    weight = 11
+    url = "https://github.com/google/docsy/"
+    pre = "<img src='/dwes/hugo/images/moodle.png'  height=20px class='img-circle mr-2' />"
+    post = "<span class='alert'>DWES</span>"
+[[languages.es.menu.main]]
+     parent ="moodle"
+     name = "moodle presencial"
+    weight = 111
+    url = "http://moodle.cpilosenlaces.com/course/view.php?id=820"
+    pre = "<img src='/images/moodle.png'  height=20px class='img-circle mr-2' />"
+    post = "<span class='alert'>DWES Vespertino</span>"
+[[languages.es.menu.main]]
+     parent ="moodle"
+     name = "moodle distancia"
+    weight = 112
+    url = "https://www.adistanciafparagon.es/course/view.php?id=112"
+    pre = "<img src='/images/moodle.png'  height=20px class='img-circle mr-2' />"
+    post = "<span class='alert'>DWES Distancia</span>"
+ [[languages.es.menu.main]]
+    identifier ="main-hugo"
+    name = "Documentación hugo"
+    pre = "<i class='fa fa-book' aria-hidden='true'></i>"
+    weight = 100
+    url = "https://github.com/google/docsy/"
+ [[languages.es.menu.main]]
+    identifier="hugo"
+    parent ="main-hugo"
+    name = "hugo"
+    weight = 101
+    url = "https://gohugo.io"
+[[languages.es.menu.main]]
+    identifier="docsy"
+    parent ="main-hugo"
+    name = "tema docsy"
+    weight = 102
+    url = "https://www.docsy.dev/docs/"
+
+
+
+
+[params]
+custom_css=['/css/estilo.css']
+copyright = "@MRomero"
+privacy_policy = "https://policies.google.com/privacy"
+
+
+
+ [params.links]
+# # End user relevant links. These will show up on left side of footer and in the community page if you have one.
+ [[params.links.user]]
+ 	name = "Correo del usuario"
+ 	url = "https://example.org/mail"
+ 	icon = "fa fa-envelope"
+         desc = "Discussion and help from your fellow users"
+# [[params.links.user]]
+# 	name ="Twitter"
+# 	url = "https://example.org/twitter"
+# 	icon = "fab fa-twitter"
+#         desc = "Follow us on Twitter to get the latest news!"
+# [[params.links.user]]
+# 	name = "Stack Overflow"
+# 	url = "https://example.org/stack"
+# 	icon = "fab fa-stack-overflow"
+#         desc = "Practical questions and curated answers"
+# # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+ [[params.links.user]]
+ 	name = "GitHub"
+ 	url = "https://github.com/MAlejandroR"
+ 	icon = "fab fa-github"
+         desc = "Development takes place here!"
+# [[params.links.developer]]
+# 	name = "Slack"
+# 	url = "https://example.org/slack"
+# 	icon = "fab fa-slack"
+#         desc = "Chat with other project developers"
+# [[params.links.developer]]
+# 	name = "Developer mailing list"
+# 	url = "https://example.org/mail"
+# 	icon = "fa fa-envelope"
+#         desc = "Discuss development issues around the project"
+

@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+<div id="mic" class="carousel slide " data-ride="carousel">
+    <div class="carousel-inner">
+        {{ range $elem_index, $elem_val := .Site.Data.clients }}
+ 
+        <div class="carousel-item {{ if eq $elem_index "1" }} active {{ end }}">
+            <img class="d-block w-100" src="{{ .image  | relURL }}"  alt="{{ .name }}">
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+
+{{end}}
