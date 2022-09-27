@@ -50,12 +50,19 @@ Si no tuviera [snap](https://snapcraft.io/docs/snap-documentation) instalado
 ```bash
 sudo apt-get install snapd
 ```
+{{% pageinfo%}}
 
+ **Referencias para instalar en windows**
+ ***
+ [Blog instalar hugo en windows](https://imalexissaez.github.io/2018/07/08/instalando-hugo-en-windows/)
+
+ [Versiones de hugo para diferentes plataformas](https://github.com/gohugoio/hugo/releases)
+{{% /pageinfo%}}
 {{% pageinfo %}}
 *Mejor instalamos con **snap** para obtener la versión última
 {{% /pageinfo %}}
 
-Instalar con *apt-get* instala una versión 0.68 **Versión actual 0.88**  
+Instalar con *apt-get* instala una versión 0.68 **Versión actual v0.103.1-**  
 {{< alert title="Descarga del sitio oficial" color="warning" >}}
 También puedes  descargar el paquete de la web oficial del sitio de hugo  [Página de hugo](https://gohugo.io)
 {{< /alert >}}
