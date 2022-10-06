@@ -27,7 +27,7 @@
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;✅
+&lt;p&gt;✅
 &lt;strong&gt;Objetivos&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Aprenderemos a instalar &lt;em&gt;hugo&lt;/em&gt; y crear un &lt;strong&gt;nuevo sitio web&lt;/strong&gt;&lt;/li&gt;
@@ -46,7 +46,6 @@
 
 &lt;/div&gt;
 
-
 &lt;hr&gt;
 &lt;h2 id=&#34;instalación&#34;&gt;Instalación&lt;/h2&gt;
 &lt;p&gt;Tiene instaladores para mac, windows y linux:&lt;/p&gt;
@@ -56,7 +55,7 @@
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Recuerda:&lt;/p&gt;
+&lt;p&gt;Recuerda:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Instalar la herramienta hugo&lt;/li&gt;
 &lt;li&gt;No olvides, si se necesita, configurar el &lt;strong&gt;path&lt;/strong&gt; del sistema para acceder desde cualquier invocación&lt;/li&gt;
@@ -65,7 +64,6 @@
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;p&gt;
 
@@ -80,6 +78,8 @@
 
 
 
+  
+  
 
 
 
@@ -93,36 +93,79 @@
 
 
 
+  
+  
 
 
 
 
+
+  
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
 
 
 
 
 
 &lt;ul class=&#34;nav nav-tabs&#34; id=&#34;tabs-2&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;
-      &lt;a class=&#34;nav-link active tab-apt-get&#34;
-        id=&#34;tabs-2-0-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-2-0&#34; role=&#34;tab&#34; onclick=&#34;handleClick(&amp;#34;apt-get&amp;#34;);&#34;
-        aria-controls=&#34;tabs-2-0&#34; aria-selected=&#34;true&#34;&gt;
-        apt-get
-      &lt;/a&gt;
-    &lt;/li&gt;&lt;li class=&#34;nav-item&#34;&gt;
-      &lt;a class=&#34;nav-link tab-snap&#34;
-        id=&#34;tabs-2-1-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-2-1&#34; role=&#34;tab&#34; onclick=&#34;handleClick(&amp;#34;snap&amp;#34;);&#34;
-        aria-controls=&#34;tabs-2-1&#34; aria-selected=&#34;false&#34;&gt;
-        snap
-      &lt;/a&gt;
-    &lt;/li&gt;&lt;/ul&gt;
+      &lt;a class=&#34;nav-link active persistLang-shell&#34;
+          id=&#34;tabs-02-00-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-02-00&#34; role=&#34;tab&#34;
+          onclick=&#34;persistLang(&amp;#34;shell&amp;#34;);&#34;
+        aria-controls=&#34;tabs-02-00&#34; aria-selected=&#34;false&#34;&gt;apt-get&lt;/a&gt;
+    &lt;/li&gt;
+
+    
+      
+    &lt;li class=&#34;nav-item&#34;&gt;
+      &lt;a class=&#34;nav-link persistLang-shell&#34;
+          id=&#34;tabs-02-01-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-02-01&#34; role=&#34;tab&#34;
+          onclick=&#34;persistLang(&amp;#34;shell&amp;#34;);&#34;
+        aria-controls=&#34;tabs-02-01&#34; aria-selected=&#34;false&#34;&gt;snap&lt;/a&gt;
+    &lt;/li&gt;
+
+    
+      
+    &lt;/ul&gt;
+
+
 
 
 &lt;div class=&#34;tab-content&#34; id=&#34;tabs-2-content&#34;&gt;&lt;div class=&#34;tab-pane fade show active&#34;
-        id=&#34;tabs-2-0&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-2-0-tab&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo apt-get install hugo
+        id=&#34;tabs-02-00&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-02-00-tab&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo apt-get install hugo
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+    
+      
+    
+
   &lt;div class=&#34;tab-pane fade&#34;
-        id=&#34;tabs-2-1&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-2-1-tab&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo snap install hugo --classic
+        id=&#34;tabs-02-01&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-02-01-tab&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo snap install hugo --classic
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+    
+      
+    
+
   
 &lt;/div&gt;
 
@@ -131,7 +174,7 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Referencias para instalar en windows&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Referencias para instalar en windows&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://imalexissaez.github.io/2018/07/08/instalando-hugo-en-windows/&#34;&gt;Blog instalar hugo en windows&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Versiones de hugo para diferentes plataformas&lt;/a&gt;&lt;/p&gt;
@@ -140,12 +183,10 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 
 
 
-
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;*Mejor instalamos con &lt;strong&gt;snap&lt;/strong&gt; para obtener la versión última&lt;/p&gt;
+&lt;p&gt;*Mejor instalamos con &lt;strong&gt;snap&lt;/strong&gt; para obtener la versión última&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;/p&gt;
 &lt;p&gt;Instalar con &lt;em&gt;apt-get&lt;/em&gt; instala una versión 0.68 &lt;strong&gt;Versión actual v0.103.1-&lt;/strong&gt;&lt;br&gt;
 
@@ -178,16 +219,17 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 231px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 231px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/1_instalacion/directory_tree_new_project_hu82d32a09220086b834bfa1b2e1e18bff_13394_100000x700000_fit_box_3.png&#34; width=&#34;221&#34; height=&#34;206&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 Listado de directorios creados
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;Aquí tienes un &lt;a href=&#34;https://desarrolloweb.com/articulos/componentes-principales-hugo-framework&#34;&gt;artículo&lt;/a&gt; muy claro sobre los directorios creados.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -250,7 +292,7 @@ Esta carpeta es donde se va a establecer el tema, layout o plantilla base a part
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;✅
+&lt;p&gt;✅
 &lt;strong&gt;Objetivo&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Asociar una plantilla o theme al sitio web&lt;/li&gt;
@@ -262,7 +304,6 @@ Esta carpeta es donde se va a establecer el tema, layout o plantilla base a part
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;h1 id=&#34;tema-plantilla-o-layout-para-el-sitio-web&#34;&gt;Tema, plantilla o layout para el sitio web&lt;/h1&gt;
 &lt;p&gt;Ahora que tenemos nuestro sitio web, lo primero que tenemos que hacer es asociar una plantilla o theme a nuestro sitio para poder visualizar su contenido.
@@ -326,16 +367,17 @@ Ahora toca modificar el fichero de configuración
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 410px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/2_temas/first_page_hu92d8c90252441a3cbd9dca4642537861_87717_400x300_fit_box_3.png&#34; width=&#34;400&#34; height=&#34;160&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 Página inicial
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;Dependiendo del tema, habrá un contenido u otro. Este tema en concreto nos muestra el contenido de una página &lt;strong&gt;themes/relearn/layouts/index.html&lt;/strong&gt;.
 Si quisiéramos cambiar el contenido de la página, en lugar de cambiar el fichero, lo que haríamos es copiar el fichero en la carpeta &lt;strong&gt;layout&lt;/strong&gt; del directorio del proyecto. volveremos a esto más adelante.&lt;/p&gt;
 &lt;h3 id=&#34;práctica&#34;&gt;Práctica&lt;/h3&gt;
@@ -376,7 +418,7 @@ Si quisiéramos cambiar el contenido de la página, en lugar de cambiar el fiche
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;✅
+&lt;p&gt;✅
 &lt;strong&gt;Objetivo&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Asociar una plantilla o theme al sitio web&lt;/li&gt;
@@ -392,7 +434,6 @@ Si quisiéramos cambiar el contenido de la página, en lugar de cambiar el fiche
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;h1 id=&#34;contenido&#34;&gt;Contenido&lt;/h1&gt;
 &lt;p&gt;Ahora que tenemos una plantilla, queda lo principal, que es aportar contenido a nuestro sitio web.
@@ -473,7 +514,7 @@ Por ejemplo para el contenido del curso podría tener una organización como se 
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Creando un fichero md&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creando un fichero md&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new docs/prueba.md
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;Genera un fichero con el siguiente contenido&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000&#34;&gt;---&lt;/span&gt;
@@ -483,7 +524,6 @@ Por ejemplo para el contenido del curso podría tener una organización como se 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000&#34;&gt;---&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-
 
 &lt;strong&gt;Las páginas en el directorio content&lt;/strong&gt;
 *Las páginas ubicadas directamente en el directorio &lt;strong&gt;content&lt;/strong&gt; serán páginas decir globales o bundles pages: contacto, about, datos relevantes. Estas páginas no son  secciones y por lo tanto no tendrán contenidos&lt;/p&gt;
@@ -495,7 +535,7 @@ Por ejemplo para el contenido del curso podría tener una organización como se 
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Ejemplo de cómo hacerlo con relearn&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo de cómo hacerlo con relearn&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Para crear una página que es cabecera de capítulo (creamos la sección teoría y el fichero _index.md)&lt;/li&gt;
 &lt;/ul&gt;
@@ -506,7 +546,6 @@ Por ejemplo para el contenido del curso podría tener una organización como se 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; hugo new chapter --kind teoria/tema1.md
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-
 &lt;/p&gt;
 &lt;h3 id=&#34;front---matter&#34;&gt;Front   matter&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;https://gohugo.io/content-management/front-matter/&lt;/a&gt;
@@ -532,7 +571,7 @@ En esta sección daremos valores a variables que luego se pueden utilizar.&lt;/p
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Repaso&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Repaso&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Lo que precede al contenido&lt;/li&gt;
 &lt;li&gt;Sintaxis especial&lt;/li&gt;
@@ -550,16 +589,14 @@ Por ejemplo si ponemos en &lt;code&gt;content/blog/_index.md&lt;/code&gt;&lt;/li
 
 
 
-
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Referencias&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Referencias&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;https://gohugo.io/content-management/front-matter/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/variables/page/&#34;&gt;https://gohugo.io/variables/page/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;taxonomías&#34;&gt;Taxonomías&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/content-management/taxonomies&#34;&gt;https://gohugo.io/content-management/taxonomies&lt;/a&gt;&lt;/p&gt;
@@ -615,7 +652,7 @@ Por ejemplo podría ser parte  del contenido de este curso visto anteriormente&l
 ### OOP.md
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Con esto nos aparecerá  la siguiente estructura:&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card-body px-0 pt-2 pb-0&amp;quot;&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;figcaption class=&amp;quot;card-body px-0 pt-2 pb-0&amp;quot;&amp;gt;
 	&amp;lt;p class=&amp;quot;card-text&amp;quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Ejemplo de contenido&lt;/p&gt;
@@ -647,7 +684,7 @@ Por ejemplo podría ser parte  del contenido de este curso visto anteriormente&l
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;✅
+&lt;p&gt;✅
 &lt;strong&gt;Objetivo&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Crear un repositorio en github&lt;/li&gt;
@@ -660,7 +697,6 @@ Por ejemplo podría ser parte  del contenido de este curso visto anteriormente&l
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;crear-un-usuario-en-git&#34;&gt;Crear un usuario en git&lt;/h2&gt;
 &lt;p&gt;Para ello accedemos a la página oficial de git &lt;a href=&#34;https://github.com&#34;&gt;https://github.com&lt;/a&gt; y buscamos la opción &lt;strong&gt;Sig up&lt;/strong&gt;&lt;/p&gt;
@@ -777,12 +813,11 @@ En esta acción, sí que exige que nos identifiquemos con nuestra password&lt;/p
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Extensiones a markdown.&lt;/p&gt;
+&lt;p&gt;Extensiones a markdown.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANTE:&lt;/strong&gt; Se usan dentro del texto &lt;strong&gt;.md&lt;/strong&gt; no en las plantillas&lt;/p&gt;
 &lt;p&gt;Doc: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes&#34;&gt;https://gohugo.io/content-management/shortcodes&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;p&gt;Un shortcode es un fragmento  de código html que será renderizado dentro de un fichero md  cuando el sistema cargue o renderice dicha página de contenido
 Es una forma de dar efectos visuales y de poder tener mayor funcionalidad dentro de nuestro sitio web&lt;/p&gt;
@@ -888,7 +923,7 @@ Si tienes alguna duda, pregunta o envía un mensaje para aclarar. Mucho mejor us
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;✅
+&lt;p&gt;✅
 &lt;strong&gt;Objetivos&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Vamos a modificar la plantilla utilizada&lt;/li&gt;
@@ -903,7 +938,6 @@ Si tienes alguna duda, pregunta o envía un mensaje para aclarar. Mucho mejor us
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;qué-partes-hay-en-la-plantilla&#34;&gt;Qué partes hay en la plantilla&lt;/h2&gt;
 &lt;p&gt;Debemos identificar las partes de una plantilla. Independientemente de la plantilla utilizada podemos hablar de:&lt;/p&gt;
@@ -923,16 +957,17 @@ Identifiquemos esos elementos en nuestra plantilla y veamos cómo modificarlos p
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/partes_plantilla_estilo_hu2618bd912ce5c9352d34c3a3e31c50b3_93124_800x1000_fit_box_3.png&#34; width=&#34;800&#34; height=&#34;351&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;hr&gt;
 &lt;h3 id=&#34;logo&#34;&gt;Logo&lt;/h3&gt;
 &lt;p&gt;En esta plantilla, &lt;strong&gt;relearn&lt;/strong&gt;,  el logo se carga a patir de un &lt;strong&gt;partial&lt;/strong&gt;.
@@ -952,15 +987,16 @@ La carpeta
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 229px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 229px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/partial_logo_hu1fd9ffc102a412c15178df9c4599e3a4_5713_400x600_fit_box_3.png&#34; width=&#34;219&#34; height=&#34;139&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;En este caso la ubicación es 
 &lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
 
@@ -984,16 +1020,17 @@ La carpeta
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 224px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 224px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/ficheros_logo_huf330ac81216e1a9fd8c846adcec22725_7525_600x700_fit_box_3.png&#34; width=&#34;214&#34; height=&#34;191&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 Modificamos el fichero actualizando al logo que queramos. En este caso el logo se rederiza a partir de un elemento &lt;em&gt;&lt;strong&gt;
 &lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
 
@@ -1053,16 +1090,17 @@ Copiamos nuestro logo en la carpeta static y lo especificamos en un elemento
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 531px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 531px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/sitio_web_logo_hu445c1a4cfd2f31e5c187bddcc2bec9f1_41260_600x800_fit_box_3.png&#34; width=&#34;521&#34; height=&#34;423&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;h3 id=&#34;menú&#34;&gt;Menú&lt;/h3&gt;
 &lt;p&gt;El menú es una sección muy importante. En esta plantilla el menú va a estar ubicado en la parte izquierda de la plantilla.
 Para añadir/modificarlo, debemos especificarlo en el fichero 
@@ -1106,16 +1144,17 @@ Por ejemplo, vamos a añadir 3 items&lt;/p&gt;
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 299px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 299px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/menu_izquierdo_hu9aed07490b4fdde8619e71692841e94e_7922_400x600_fit_box_3.png&#34; width=&#34;289&#34; height=&#34;133&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
@@ -1141,16 +1180,17 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 311px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 311px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/menu_titulo_hubdf966f388f8ef5573ea5690c49b3e76_38419_500x600_fit_box_3.png&#34; width=&#34;301&#34; height=&#34;471&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 
 &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;h3 id=&#34;estilo&#34;&gt;Estilo&lt;/h3&gt;
 &lt;p&gt;Esta plantilla tiene hasta tres estilos de colores diferentes preparados. Para utilizarlos basta con establecer el valor correspondiente de la variable 
 &lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
@@ -1197,10 +1237,11 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/style_red_hu44a35b9baba1a0cad87440f2b071c848_29719_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;229&#34;&gt;
 	
-&lt;/div&gt;&lt;/td&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
 &lt;td&gt;
 
 
@@ -1208,10 +1249,11 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/style_blue_hub408e45d5e68cd8233bbea19207915f2_36047_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;283&#34;&gt;
 	
-&lt;/div&gt;&lt;/td&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
 &lt;td&gt;
 
 
@@ -1219,10 +1261,11 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/style_green_hu21cec48f8bdf764b84d1d36d95f08a8f_32245_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;237&#34;&gt;
 	
-&lt;/div&gt;&lt;/td&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
 &lt;td&gt;
 
 
@@ -1230,10 +1273,11 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/style_default_hu5be5d4d01981d1daf00483b3b453808f_28250_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;219&#34;&gt;
 	
-&lt;/div&gt;&lt;/td&gt;
+&lt;/figure&gt;
+&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1248,16 +1292,17 @@ El color se carga, ya que en realidad lo que hacemos es establecer los &lt;stron
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 296px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 296px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/temas_hu2246284ea56ea70bde82682efdc900e7_5674_600x700_fit_box_3.png&#34; width=&#34;286&#34; height=&#34;200&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
  
  &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;p&gt;Si copiamos el fichero en nuestra ubicación &lt;strong&gt;static/css/theme&lt;/strong&gt;También podemos crear nuestros propios ficheros css y cargarlos en nuestro proyecto, o modificar los valores de variables establecidos en el fichero de estilo css. Para ilustrar esta modificiación, copiamos en nuestro directiro &lt;strong&gt;./static/css&lt;/strong&gt; el fichero de variables css y modificamos el color de fondo donde se ubica el menú que estamos trabajando, colocando otro color.
 Vamos a copiar &lt;strong&gt;/themes/relearn/static/css/theme-relearn&lt;/strong&gt;  en &lt;strong&gt;/static/css/theme-dwes.css&lt;/strong&gt;
 Ahora modificamos alguna de las variables de este tema y en el fichero de configuración especificamos que usamos este tema&lt;/p&gt;
@@ -1274,17 +1319,18 @@ Tras modificar dos colores de fondo bg y el color de la letra del título queda 
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 355px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 355px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/pagina_nuevo_estilo_hu42f1089f4060de63ac6b8e87517186d9_41692_800x1000_fit_box_3.png&#34; width=&#34;345&#34; height=&#34;550&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
 
  
  &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
 &lt;p&gt;Para modificar este botón accedemos a nuestro nuevo theme-dwes.css y modificamos las variables que afectan a search, según nuestro gusto&lt;/p&gt;
 &lt;h3 id=&#34;home&#34;&gt;Home&lt;/h3&gt;
@@ -1305,16 +1351,17 @@ Los parámetros modificados son los siguientes&lt;/p&gt;
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 321px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 321px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/pagina_home_modificado_huc0b89549bbb30516b72a3876181a12ed_41865_900x1000_fit_box_3.png&#34; width=&#34;311&#34; height=&#34;542&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
  
  &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;h3 id=&#34;footer&#34;&gt;footer&lt;/h3&gt;
 &lt;p&gt;El footer es esta plantilla, corresponde a un partial, por lo que tendríamos que acceder a él, copiarlo en nuestro directorio  y modificarlo.
 El fichero  que muestra el footer en la parte del menú se llama 
@@ -1334,16 +1381,17 @@ Una pequeña modificación y observamos la actualización en la página&lt;/p&gt
 
 
 
-&lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 289px&#34;&gt;
+&lt;figure class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 289px&#34;&gt;
 	&lt;img class=&#34;card-img-top&#34; src=&#34;https://malejandror.github.io/staticSite/staticSite/docs/teoria/5_estilo_plantilla/actualizado_footer_menu_hu2fb29ad6ce736fa35f4db07a3e5beb2e_39589_700x900_fit_box_3.png&#34; width=&#34;279&#34; height=&#34;534&#34;&gt;
 	
-	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
+	&lt;figcaption class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
  
  &lt;/p&gt;
-	&lt;/div&gt;
+	&lt;/figcaption&gt;
 	
-&lt;/div&gt;
+&lt;/figure&gt;
+
 &lt;h3 id=&#34;práctica&#34;&gt;Práctica&lt;/h3&gt;
 
 
@@ -1391,7 +1439,7 @@ Una pequeña modificación y observamos la actualización en la página&lt;/p&gt
         &lt;p&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;ul&gt;
+&lt;ul&gt;
 &lt;li&gt;Ver cómo establecer diferentes lenguajes en nuestro proyecto&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/content-management/multilingual/&#34;&gt;https://gohugo.io/content-management/multilingual/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://learn.netlify.app/en/cont/i18n/&#34;&gt;https://learn.netlify.app/en/cont/i18n/&lt;/a&gt;&lt;/li&gt;
@@ -1404,7 +1452,6 @@ Una pequeña modificación y observamos la actualización en la página&lt;/p&gt
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;/div&gt;
-
 
 
 
@@ -1458,12 +1505,11 @@ para adaptar las páginas en el lenguaje deseado&lt;/p&gt;
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Listado de idiomas configurado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Listado de idiomas configurado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;listado_idiomas.png&#34; alt=&#34;imagen de lista de idiomas&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;/p&gt;
 &lt;p&gt;En este caso vamos a establecer diferentes directorios para establecer la ubicación de los ficheros. Deberá de aparecer un menú para ver las diferentes opciones del menú.&lt;/p&gt;
 &lt;p&gt;Ahora podremos establecer un idioma por defecto también con variables en el fichero &lt;strong&gt;config.toml&lt;/strong&gt;&lt;/p&gt;
@@ -1500,7 +1546,7 @@ Para ello observa y utiliza la estructura de controlc
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Recuerda realizar las modificaciones copiando los ficheros en la carpeta layout&lt;/p&gt;
+&lt;p&gt;Recuerda realizar las modificaciones copiando los ficheros en la carpeta layout&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{if eq .Site.Language.Lang &amp;#34;fr&amp;#34;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   	&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;Personaliser la page d&amp;#39;accueil&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h1&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       &lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;&amp;lt;!--Usa el traductor para completar esta parte--&amp;gt;&lt;/span&gt;
@@ -1514,7 +1560,6 @@ Para ello observa y utiliza la estructura de controlc
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   {{end}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-
 
 &lt;h3 id=&#34;cambiando-valores-a-través-de-variables&#34;&gt;Cambiando valores a través de variables&lt;/h3&gt;
 &lt;p&gt;Ahora observamos que aunque cambie el contenido, hay palabras con que no se adaptan al idioma esablecido&lt;/p&gt;
@@ -1535,12 +1580,11 @@ Vemos cómo estos ficheros empiezan con dos letras que identifican el idioma
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Cambia las palabras que hemos indicado
+&lt;p&gt;Cambia las palabras que hemos indicado
 Mira el fichero &lt;strong&gt;menu-footer.html&lt;/strong&gt; y &lt;strong&gt;menu.html&lt;/strong&gt; para localizar los items
 No olvides modificar los ficheros copiándolos previamente a tu carpeta &lt;strong&gt;layout&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;/p&gt;
 &lt;h3 id=&#34;añadiendo-menús-en-la-página-principal&#34;&gt;Añadiendo menús en la página principal&lt;/h3&gt;
 &lt;p&gt;Si queremos establecer menú en la página principal y que esté en diferentes idiomas&lt;/p&gt;
@@ -1590,12 +1634,11 @@ No olvides modificar los ficheros copiándolos previamente a tu carpeta &lt;stro
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Crear ficheros md&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Crear ficheros md&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://malejandror.github.io/staticSite/images/creacion_ficheros_md.png&#34; alt=&#34;Crear ficheros&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;/p&gt;
 &lt;p&gt;Una vez creada ya lo único que queda es poner contenido. Para el ejercicio utiliza &lt;em&gt;translate&lt;/em&gt; para  realizar la traducción en los dos idiomas&lt;/p&gt;
 &lt;h3 id=&#34;añadiendo-menús&#34;&gt;Añadiendo menús&lt;/h3&gt;
@@ -1652,7 +1695,7 @@ En el caso de learn se añade usando la siguiente sintaxis&lt;/p&gt;
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Algunas notas sobre el trabajo con las plantillas:&lt;/p&gt;
+&lt;p&gt;Algunas notas sobre el trabajo con las plantillas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sintaxis básica de las plantillas en Hugo&lt;/li&gt;
 &lt;li&gt;Organización de las plantillas. Directorio &lt;code&gt;layout&lt;/code&gt;&lt;/li&gt;
@@ -1662,7 +1705,6 @@ En el caso de learn se añade usando la siguiente sintaxis&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Documentación:&lt;/strong&gt;  &lt;a href=&#34;https://gohugo.io/templates/&#34;&gt;https://gohugo.io/templates/&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;sintaxis-básica&#34;&gt;Sintaxis básica&lt;/h2&gt;
 &lt;p&gt;Un plantilla es una página html donde utilizando una notación especial, vamos a poder incluir elementos que vamos a partir de un lenguaje de programación y las variable que gestione.&lt;/p&gt;
@@ -1722,12 +1764,11 @@ Por ejemplo podría tener una plantilla  personalizada, podríamos escribir lo s
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;El resultado serán&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;El resultado serán&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://malejandror.github.io/staticSite/images/relearn/plantillas/plantilla_customer.png&#34; alt=&#34;plantilla personalizada&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;p&gt;Acceso a variables predefinidas:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go-html-template&#34; data-lang=&#34;go-html-template&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -1906,7 +1947,7 @@ Cada json contiene &lt;strong&gt;name&lt;/strong&gt; y &lt;strong&gt;channels&lt
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;**El código de la plantilla **&lt;/p&gt;
+&lt;p&gt;**El código de la plantilla **&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;ul&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  {{ range  .Site.Data.tv }}
@@ -1924,14 +1965,12 @@ Cada json contiene &lt;strong&gt;name&lt;/strong&gt; y &lt;strong&gt;channels&lt
 
 
 
-
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;La ubicación del fichero&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La ubicación del fichero&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://malejandror.github.io/staticSite/images/relearn/plantillas/plantilla_tv.png&#34; alt=&#34;fichero plantilla para canales de tv&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 Hay que entender el doble bucle que hay cuya sintaxis, en lugar del for al que estamos acostumbrados es &lt;strong&gt;range&lt;/strong&gt;.
 En definitiva lo que hace es recorrer el array inicial y para cada elemento recorro el elemento &lt;em&gt;channels&lt;/em&gt; que como se puede ver es otro array&lt;/p&gt;
@@ -1955,7 +1994,7 @@ La plantilla base de las páginas está en
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Plantilla de datos_tv.html incluyendo la plantilla base.html&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Plantilla de datos_tv.html incluyendo la plantilla base.html&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- partial &amp;#34;header.html&amp;#34; . }}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hr&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;/&amp;gt;&lt;/span&gt;
@@ -1983,7 +2022,6 @@ La plantilla base de las páginas está en
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-
 Ahora creamos la página markdown que usará esta plantilla, la creamos bajo practica con el comando de 
 &lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
 
@@ -1995,7 +2033,7 @@ Ahora creamos la página markdown que usará esta plantilla, la creamos bajo pra
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;página markdown que usa esta plantilla datos.md&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;página markdown que usa esta plantilla datos.md&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &amp;#34;Obtener Json&amp;#34;
@@ -2007,7 +2045,6 @@ Ahora creamos la página markdown que usará esta plantilla, la creamos bajo pra
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;Vemos que especificamos en el front matter la variable 
 &lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
 
@@ -2018,12 +2055,11 @@ Ahora creamos la página markdown que usará esta plantilla, la creamos bajo pra
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;**El resultado de la ejecución **&lt;/p&gt;
+&lt;p&gt;**El resultado de la ejecución **&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://malejandror.github.io/staticSite/images/relearn/plantillas/canales_tv.png&#34; alt=&#34;Ejecución de carga de datos&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;h1 id=&#34;consumir-ficheros-de-un-directorio&#34;&gt;Consumir ficheros de un directorio&lt;/h1&gt;
 &lt;p&gt;En este caso vamos a tener un fichero con imágenes o fotografías  en un directorio
@@ -2053,7 +2089,7 @@ En este caso creamos las imágenes en
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Ficheros de imágenes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ficheros de imágenes&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://malejandror.github.io/staticSite/images/relearn/data/imagenes.png&#34; alt=&#34;Ficheros de imágenes para ver&#34;&gt;&lt;/p&gt;
 
@@ -2061,9 +2097,8 @@ En este caso creamos las imágenes en
 
 
 
-
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Creamos la plantilla content/&amp;hellip;&amp;hellip;/carousel.md&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creamos la plantilla content/&amp;hellip;&amp;hellip;/carousel.md&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[]&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -2071,9 +2106,8 @@ En este caso creamos las imágenes en
 
 
 
-
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Creamos la plantilla html /layoout/_defoult/carousel.html&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creamos la plantilla html /layoout/_defoult/carousel.html&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- partial &amp;#34;header.html&amp;#34; . }}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -2099,7 +2133,6 @@ En este caso creamos las imágenes en
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- partial &amp;#34;footer.html&amp;#34; . }}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-
 &lt;/p&gt;
 &lt;p&gt;Y creamos los ficheros en la carpeta de 
 &lt;span class=&#34;font-weight-bold text-warning&#34;&gt;
@@ -2117,12 +2150,11 @@ En este caso creamos las imágenes en
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Listado de ficheros json para referenciar las imágens&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Listado de ficheros json para referenciar las imágens&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://malejandror.github.io/staticSite/images/relearn/data/ficheros_json_imagenes.png&#34; alt=&#34;Listado de ficheros para referenciar imágenes local&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 El contenido de estos ficheros es igual salvo que cada uno referencia a una images&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
