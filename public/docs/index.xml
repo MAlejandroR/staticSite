@@ -128,15 +128,26 @@
 
 Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&gt;snap&lt;/a&gt; instalado&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install snapd
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;&lt;strong&gt;Referencias para instalar en windows&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://imalexissaez.github.io/2018/07/08/instalando-hugo-en-windows/&#34;&gt;Blog instalar hugo en windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;Versiones de hugo para diferentes plataformas&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;*Mejor instalamos con &lt;strong&gt;snap&lt;/strong&gt; para obtener la versión última&lt;/p&gt;
 
 &lt;/div&gt;
 
-
-&lt;p&gt;Instalar con &lt;em&gt;apt-get&lt;/em&gt; instala una versión 0.68 &lt;strong&gt;Versión actual 0.88&lt;/strong&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;Instalar con &lt;em&gt;apt-get&lt;/em&gt; instala una versión 0.68 &lt;strong&gt;Versión actual v0.103.1-&lt;/strong&gt;&lt;br&gt;
 
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
@@ -625,6 +636,136 @@ Por ejemplo podría ser parte  del contenido de este curso visto anteriormente&l
     </item>
     
     <item>
+      <title>Docs: Uso básico de git</title>
+      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/3_git/</link>
+      <pubDate>Mon, 04 Oct 2021 13:19:24 +0200</pubDate>
+      
+      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/3_git/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+   &lt;p&gt;✅
+&lt;strong&gt;Objetivo&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Crear un repositorio en github&lt;/li&gt;
+&lt;li&gt;Crear un proyecto en local, crear un repositorio local y enlazarlo con el repositorio de github&lt;/li&gt;
+&lt;li&gt;Realizar cambios en local, subirlo a github, clonar proyectos y actulizarlos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Páginas referenciadas o de consulta&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;https://https://www.atlassian.com/es/git&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;crear-un-usuario-en-git&#34;&gt;Crear un usuario en git&lt;/h2&gt;
+&lt;p&gt;Para ello accedemos a la página oficial de git &lt;a href=&#34;https://github.com&#34;&gt;https://github.com&lt;/a&gt; y buscamos la opción &lt;strong&gt;Sig up&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;git_new_user.png&#34; alt=&#34;Acceso a git&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Una vez presionado el botón, aportamos los datos que nos solicita y nos registramos&lt;/p&gt;
+&lt;h2 id=&#34;crear-un-nuevo-repositorio&#34;&gt;Crear un nuevo repositorio&lt;/h2&gt;
+&lt;p&gt;Entrando con nuestro usuario y password, ya podemos crear un nuevo repositorio (la idea es  crear un directorio que llamo de una forma para guardar un determinado proyecto en la nube).&lt;/p&gt;
+&lt;p&gt;Buscamos la opción de nuebo repositorio y lo presionamos&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;new_repositorio.png&#34; alt=&#34;Crear un nuevo repositorio&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Entonces nos mostrará un menú para insertar un nuevo repositorio&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;new_repositorio_2.png&#34; alt=&#34;Crear un nuevo repositorio&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Insertamos un nombre y presionamos al final de la página el botón &lt;em&gt;&lt;strong&gt;&lt;strong&gt;Create Repository&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;create_repositorio.png&#34; alt=&#34;Crear un nuevo repositorio&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Una vez creado vemos una serie de instrucciones que debemos de escribir en nuestro proyecto local, creando un repositorio en local y  ligarlo a este repositorio
+&lt;img src=&#34;repositorio_creado.png&#34; alt=&#34;Repositorio creado&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;crear-un-proyecto-en-local-y-crear-un-repositorio&#34;&gt;Crear un proyecto en local y crear un repositorio&lt;/h2&gt;
+&lt;p&gt;Ahora vamos a local y ejecutamos las instrucciones que nos ha indicado el servidor de github para crear el repositorio en local y vincularlo al repositorio en github
+Previamente a configurar el proyecto, y solo la primera vez, ya que se hará de forma &lt;strong&gt;global&lt;/strong&gt;, vamos a configurar nuestros datos de git en local con los siguientes comandos&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.name NombreUsuarioGit
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.mail emailUsuarioGiyt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Una vez configurado el sitio, suponemos que tenemos un proyecto en local bajo un directorio donde nos ubicaremos
+Ahí escribimos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Para crear el directorio en local&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Este comando crearé un directorio en local llamado .github que inicializará el repositorio en local&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Agregar ficheros al repositorio&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add *
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Este comando agregará todos los ficheros del directorio al repositorio en local&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Se excluirán aquellos ficheros que estén especificados en un fichero especial llamado .gitignore (el punto es porque es un fichero oculto)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Establecer un comentario de checkpoint&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Primera actualización del proyecto&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Creamos un mensaje que se asociará al commit actual cuando subamos los ficheros al proyecto&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Establecemos la rama principal de trabajo&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -m main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;En este caso establecemos la rama de trabajo &lt;strong&gt;main&lt;/strong&gt;. Un proyecto puede tener varias ramas, las cuales llevan una vida independiente en el desarrollo del proyecto hasta que se unan o establezca un  &lt;strong&gt;merge&lt;/strong&gt; al proyecto principal&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Ligamos el proyecto local al remoto&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git remote add origin main   https://github/Usuario/Proyecto.git *
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Ligamos el proyecto que tenemos en local al repositorio de github, unido, en este caso, a la rama main. En local la rama se llama &lt;strong&gt;origin&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Submimos el proyecto de local a remoto&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main *
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Este comando sube todos los ficheros preparados (que se han unido con el comando &lt;strong&gt;add&lt;/strong&gt;), asignándoles el mensaje asociado al comando &lt;strong&gt;commit&lt;/strong&gt; al repositorio en remoto de github&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;realizar-cambios-en-local-y-subirlos-a-git&#34;&gt;Realizar cambios en local y subirlos a git&lt;/h2&gt;
+&lt;p&gt;Ahora trabajaremos con normalidad en nuestro proyecto y cuando consideremos (un buen criterio es que hayamos realizado una parte funcional, no se trata de subir el proyecto cada 5 minutos)
+Cuando lo queremos subir repetimos estos tres pasos&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add *
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;con esta parte funcionando ...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;clonar-el-proyecto-en-local&#34;&gt;Clonar el proyecto en local&lt;/h2&gt;
+&lt;p&gt;Ahora si vamos a otro ordenador y queremos trabajar con nuestro proyecto, lo tenemos que descargar o clonar.&lt;/p&gt;
+&lt;p&gt;Para ello necesitamos la referencia del proyecto que podemos obtener accediendo a nuestro repositorio, y en el botón code, ver la referencia&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;url_repositorio.png&#34; alt=&#34;Nombre del repositorio &#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/Usuario/proyecto.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ahora trabajamos en el proyecto y lo vamos modificando haciendo los push que correspondan&lt;/p&gt;
+&lt;h2 id=&#34;actualizar-el-proyecto-engi-github&#34;&gt;Actualizar el proyecto engi github&lt;/h2&gt;
+&lt;p&gt;En este caso, si volvemos a otro equipo donde tenemos el proyecto, el cual lo hemos modificado en un equipo diferente, lo tendremos que actualizar del servidor, antes de seguir trabajando. Esto lo hacemos con el comando pull&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Y continuamos trabajando&lt;/p&gt;
+&lt;h2 id=&#34;credenciales-para-trabajar-con-git&#34;&gt;Credenciales para trabajar con git&lt;/h2&gt;
+&lt;p&gt;Siempre que queramos interactuar con el proyecto, nos va a pedir que nos identifiquemos.
+Pero git, ya no permite identificarse con el password, si no que hay que crearse un token, e identificarse con ese token.
+Para crear un token accedemos a la opción Settings del menú de nuestro usuario&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;opcion_setting.png&#34; alt=&#34;Opción setting&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Entonces en la parte izquierda, vamos a la opción &lt;em&gt;&lt;strong&gt;&lt;strong&gt;Developer setting&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;developer_setting.png&#34; alt=&#34;Opción setting&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Al presionar sale un menú y volvemos a seleccionar la opción &lt;em&gt;&lt;strong&gt;&lt;strong&gt;Personal access token&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;personal_access_token.png&#34; alt=&#34;Personal Access token&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahí podemos generar un nuevo token, asignar su caducidad y debemos asigar los &lt;em&gt;&lt;strong&gt;scope&lt;/strong&gt;&lt;/em&gt; o permisos que indican qué se puede hacer con ese token. Debemos dar permisos para acceder al repositorio
+En esta acción, sí que exige que nos identifiquemos con nuestra password&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;scope.png&#34; alt=&#34;scopie&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tocken&#34;&gt;Tocken&lt;/h3&gt;
+&lt;h3 id=&#34;clave-pública-y-privada&#34;&gt;Clave pública y privada&lt;/h3&gt;
+&lt;p&gt;Crear&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Shortcode</title>
       <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/4_shortcode/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:53 +0200</pubDate>
@@ -684,7 +825,36 @@ Es una forma de dar efectos visuales y de poder tener mayor funcionalidad dentro
 &lt;/div&gt;
 &lt;/h2&gt;
 &lt;p&gt;En el caso de relearn, tenemos varios e interesantes &lt;a href=&#34;https://mcshelby.github.io/hugo-theme-relearn/shortcodes/&#34;&gt;shorcodes de relearn&lt;/a&gt;  como vamos a ver. Visita la página y pruébalos cada uno.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;### Práctica
+&lt;h3 id=&#34;algunos-shortcode-de-relearn&#34;&gt;Algunos shortcode de Relearn&lt;/h3&gt;
+&lt;p&gt;Puedes ver los &lt;a href=&#34;https://mcshelby.github.io/hugo-theme-relearn/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; de la plantilla de &lt;a href=&#34;https://mcshelby.github.io/hugo-theme-relearn/&#34;&gt;relearn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;*Para practicar debes de probar con los siguientes shortcodes&lt;/p&gt;
+&lt;h4 id=&#34;button&#34;&gt;button&lt;/h4&gt;
+&lt;p&gt;*El uso es con la siguiente sintaxis&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{{&lt;/span&gt;% button &lt;span style=&#34;color:#000&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;referencia&amp;#34;&lt;/span&gt; /*%&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}}&lt;/span&gt;Label del botón&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;{{&lt;/span&gt;% /button %&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;*Podemos incluir  atributos según puedes ver en la web de referencia&lt;/p&gt;
+&lt;h4 id=&#34;attachments&#34;&gt;attachments&lt;/h4&gt;
+&lt;p&gt;*Este shortcode es muy práctico e interesante. con él podemos conseguir que aparezcan una serie de ficheros para que el usuario pueda descargar
+*Consiste en colocar una carpeta de descargas con ficheros que queremos permitir que el usuario se descargue
+*Para usarlo tenemos dos circunstancias:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Poner la carpeta de directamente bajo el directorio &lt;strong&gt;content&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En este caso colocaremos una carpeta llamada &lt;em&gt;&lt;strong&gt;&lt;strong&gt;files&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt; y bajo ella todos los ficheros que pretendamos dejar en descargas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Poner la carpeta de descargas bajo otra subcarpeta del directorio &lt;strong&gt;content&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;En este caso colocaremos una carpeta llamada &lt;em&gt;&lt;strong&gt;&lt;strong&gt;_index.files&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt; y bajo ella todos los ficheros que pretendamos dejar en descargas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Una vez colocada la carpeta con los ficheros, colocaremos en nuestro fichero &lt;em&gt;&lt;strong&gt;&lt;strong&gt;md&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt; el shortcode
+*El uso es con la siguiente sintaxis&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{{&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;%/*&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;attachments&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;sort&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;asc&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;/%&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;extends&#34;&gt;extends&lt;/h4&gt;
+&lt;h4 id=&#34;notice&#34;&gt;notice&lt;/h4&gt;
+&lt;h4 id=&#34;mermaind&#34;&gt;mermaind&lt;/h4&gt;
+&lt;h3 id=&#34;práctica&#34;&gt;Práctica&lt;/h3&gt;
 
 
 &lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
@@ -702,16 +872,16 @@ Si tienes alguna duda, pregunta o envía un mensaje para aclarar. Mucho mejor us
 
 &lt;/div&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
+
       </description>
     </item>
     
     <item>
       <title>Docs: Personalizar la plantilla</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/5_estilo_plangilla/</link>
+      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/5_estilo_plantilla/</link>
       <pubDate>Fri, 22 Oct 2021 16:23:31 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/5_estilo_plangilla/</guid>
+      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/5_estilo_plantilla/</guid>
       <description>
         
         
@@ -743,7 +913,7 @@ Si tienes alguna duda, pregunta o envía un mensaje para aclarar. Mucho mejor us
 &lt;li&gt;Menú principal
 Identifiquemos esos elementos en nuestra plantilla y veamos cómo modificarlos para personalizarla a nuestro gusto.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;En la imagen siguiente hemos identificado diferentes partes en la plantilla que vemos trans instalarla, sin ninguna modificación.&lt;/p&gt;
+&lt;p&gt;En la imagen siguiente hemos identificado diferentes partes en la plantilla que vemos tras instalarla, sin ninguna modificación.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Partes de la plantilla&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 
@@ -754,7 +924,7 @@ Identifiquemos esos elementos en nuestra plantilla y veamos cómo modificarlos p
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 810px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/partes_plantilla_estilo_hu2618bd912ce5c9352d34c3a3e31c50b3_93124_800x1000_fit_box_3.png&#34; width=&#34;800&#34; height=&#34;351&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/partes_plantilla_estilo_hu2618bd912ce5c9352d34c3a3e31c50b3_93124_800x1000_fit_box_3.png&#34; width=&#34;800&#34; height=&#34;351&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -783,7 +953,7 @@ La carpeta
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 229px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/partial_logo_hu1fd9ffc102a412c15178df9c4599e3a4_5713_400x600_fit_box_3.png&#34; width=&#34;219&#34; height=&#34;139&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/partial_logo_hu1fd9ffc102a412c15178df9c4599e3a4_5713_400x600_fit_box_3.png&#34; width=&#34;219&#34; height=&#34;139&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -815,7 +985,7 @@ La carpeta
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 224px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/ficheros_logo_huf330ac81216e1a9fd8c846adcec22725_7525_600x700_fit_box_3.png&#34; width=&#34;214&#34; height=&#34;191&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/ficheros_logo_huf330ac81216e1a9fd8c846adcec22725_7525_600x700_fit_box_3.png&#34; width=&#34;214&#34; height=&#34;191&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -871,24 +1041,10 @@ Copiamos nuestro logo en la carpeta static y lo especificamos en un elemento
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/images/logo.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;Logo del ciclo&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            Desarrollo Web
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Vemos la estructura de ficheros
-
-
-&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Estructura de ficheros&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;card-body px-0 pt-2 pb-0&amp;quot;&amp;gt;
-	&amp;lt;p class=&amp;quot;card-text&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-
-&lt;/div&gt;
-
-&lt;/p&gt;
-&lt;p&gt;Y nos quedará la página con el logo actualizado&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sitio web con el logo actualizado&lt;/strong&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Y nos quedará la página con el logo actualizado
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Sitio web con el logo actualizado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 
 
@@ -898,7 +1054,7 @@ Copiamos nuestro logo en la carpeta static y lo especificamos en un elemento
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 531px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/sitio_web_logo_hu445c1a4cfd2f31e5c187bddcc2bec9f1_41260_600x800_fit_box_3.png&#34; width=&#34;521&#34; height=&#34;423&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/sitio_web_logo_hu445c1a4cfd2f31e5c187bddcc2bec9f1_41260_600x800_fit_box_3.png&#34; width=&#34;521&#34; height=&#34;423&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -951,7 +1107,7 @@ Por ejemplo, vamos a añadir 3 items&lt;/p&gt;
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 299px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/menu_izquierdo_hu9aed07490b4fdde8619e71692841e94e_7922_400x600_fit_box_3.png&#34; width=&#34;289&#34; height=&#34;133&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/menu_izquierdo_hu9aed07490b4fdde8619e71692841e94e_7922_400x600_fit_box_3.png&#34; width=&#34;289&#34; height=&#34;133&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -986,7 +1142,7 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 311px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/menu_titulo_hubdf966f388f8ef5573ea5690c49b3e76_38419_500x600_fit_box_3.png&#34; width=&#34;301&#34; height=&#34;471&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/menu_titulo_hubdf966f388f8ef5573ea5690c49b3e76_38419_500x600_fit_box_3.png&#34; width=&#34;301&#34; height=&#34;471&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -1042,7 +1198,7 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/style_red_hu44a35b9baba1a0cad87440f2b071c848_29719_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;229&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/style_red_hu44a35b9baba1a0cad87440f2b071c848_29719_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;229&#34;&gt;
 	
 &lt;/div&gt;&lt;/td&gt;
 &lt;td&gt;
@@ -1053,7 +1209,7 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/style_blue_hub408e45d5e68cd8233bbea19207915f2_36047_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;283&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/style_blue_hub408e45d5e68cd8233bbea19207915f2_36047_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;283&#34;&gt;
 	
 &lt;/div&gt;&lt;/td&gt;
 &lt;td&gt;
@@ -1064,7 +1220,7 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/style_green_hu21cec48f8bdf764b84d1d36d95f08a8f_32245_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;237&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/style_green_hu21cec48f8bdf764b84d1d36d95f08a8f_32245_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;237&#34;&gt;
 	
 &lt;/div&gt;&lt;/td&gt;
 &lt;td&gt;
@@ -1075,7 +1231,7 @@ Posteriormente veremos el tema de traducción y abordaremos esta cuestión&lt;/p
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 210px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/style_default_hu5be5d4d01981d1daf00483b3b453808f_28250_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;219&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/style_default_hu5be5d4d01981d1daf00483b3b453808f_28250_200x300_fit_box_3.png&#34; width=&#34;200&#34; height=&#34;219&#34;&gt;
 	
 &lt;/div&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -1093,7 +1249,7 @@ El color se carga, ya que en realidad lo que hacemos es establecer los &lt;stron
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 296px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/temas_hu2246284ea56ea70bde82682efdc900e7_5674_600x700_fit_box_3.png&#34; width=&#34;286&#34; height=&#34;200&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/temas_hu2246284ea56ea70bde82682efdc900e7_5674_600x700_fit_box_3.png&#34; width=&#34;286&#34; height=&#34;200&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -1102,7 +1258,7 @@ El color se carga, ya que en realidad lo que hacemos es establecer los &lt;stron
 	&lt;/div&gt;
 	
 &lt;/div&gt;
-&lt;p&gt;Si copiamos el fichero en nuestra ubicación &lt;strong&gt;static/css/theme&lt;/strong&gt;También podemos crear nuestros propios ficheros css y cargarlos en nuestro proyecto, o modificar los valores de variables establecidos en el fichero de estilo css. Para ilustrar esta modificiación, copimos en nuestro directiro &lt;strong&gt;./static/css&lt;/strong&gt; el fichero de variables css y modificamos el color de fondo donde se ubica el menú que estamos trabajando, colocando otro color.
+&lt;p&gt;Si copiamos el fichero en nuestra ubicación &lt;strong&gt;static/css/theme&lt;/strong&gt;También podemos crear nuestros propios ficheros css y cargarlos en nuestro proyecto, o modificar los valores de variables establecidos en el fichero de estilo css. Para ilustrar esta modificiación, copiamos en nuestro directiro &lt;strong&gt;./static/css&lt;/strong&gt; el fichero de variables css y modificamos el color de fondo donde se ubica el menú que estamos trabajando, colocando otro color.
 Vamos a copiar &lt;strong&gt;/themes/relearn/static/css/theme-relearn&lt;/strong&gt;  en &lt;strong&gt;/static/css/theme-dwes.css&lt;/strong&gt;
 Ahora modificamos alguna de las variables de este tema y en el fichero de configuración especificamos que usamos este tema&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#000&#34;&gt;params&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;
@@ -1119,7 +1275,7 @@ Tras modificar dos colores de fondo bg y el color de la letra del título queda 
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 355px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/pagina_nuevo_estilo_hu42f1089f4060de63ac6b8e87517186d9_41692_800x1000_fit_box_3.png&#34; width=&#34;345&#34; height=&#34;550&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/pagina_nuevo_estilo_hu42f1089f4060de63ac6b8e87517186d9_41692_800x1000_fit_box_3.png&#34; width=&#34;345&#34; height=&#34;550&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -1150,7 +1306,7 @@ Los parámetros modificados son los siguientes&lt;/p&gt;
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 321px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/pagina_home_modificado_huc0b89549bbb30516b72a3876181a12ed_41865_900x1000_fit_box_3.png&#34; width=&#34;311&#34; height=&#34;542&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/pagina_home_modificado_huc0b89549bbb30516b72a3876181a12ed_41865_900x1000_fit_box_3.png&#34; width=&#34;311&#34; height=&#34;542&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -1179,7 +1335,7 @@ Una pequeña modificación y observamos la actualización en la página&lt;/p&gt
 
 
 &lt;div class=&#34;card rounded p-2 td-post-card mb-4 mt-4&#34; style=&#34;max-width: 289px&#34;&gt;
-	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plangilla/actualizado_footer_menu_hu2fb29ad6ce736fa35f4db07a3e5beb2e_39589_700x900_fit_box_3.png&#34; width=&#34;279&#34; height=&#34;534&#34;&gt;
+	&lt;img class=&#34;card-img-top&#34; src=&#34;http://manuel.infenlaces.com/dwes/hugo/dwes/hugo/docs/teoria/5_estilo_plantilla/actualizado_footer_menu_hu2fb29ad6ce736fa35f4db07a3e5beb2e_39589_700x900_fit_box_3.png&#34; width=&#34;279&#34; height=&#34;534&#34;&gt;
 	
 	&lt;div class=&#34;card-body px-0 pt-2 pb-0&#34;&gt;
 		&lt;p class=&#34;card-text&#34;&gt;
@@ -1225,10 +1381,10 @@ Una pequeña modificación y observamos la actualización en la página&lt;/p&gt
     
     <item>
       <title>Docs: Multilenguaje</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/6.-multilenguaje/</link>
+      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/6_multilenguajes/</link>
       <pubDate>Tue, 05 Oct 2021 20:02:27 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/6.-multilenguaje/</guid>
+      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/6_multilenguajes/</guid>
       <description>
         
         
@@ -1304,7 +1460,7 @@ para adaptar las páginas en el lenguaje deseado&lt;/p&gt;
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
    &lt;p&gt;&lt;strong&gt;Listado de idiomas configurado&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;http://manuel.infenlaces.com/dwes/hugo/images/relearn/lang/listado_idiomas.png&#34; alt=&#34;imagen de lista de idiomas&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;listado_idiomas.png&#34; alt=&#34;imagen de lista de idiomas&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -1486,10 +1642,10 @@ En el caso de learn se añade usando la siguiente sintaxis&lt;/p&gt;
     
     <item>
       <title>Docs: Plantillas </title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/7.-plantillas/</link>
+      <link>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/7_plantillas/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:43 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/7.-plantillas/</guid>
+      <guid>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/7_plantillas/</guid>
       <description>
         
         
@@ -1535,7 +1691,7 @@ Por ejemplo podría tener una plantilla  personalizada, podríamos escribir lo s
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;Declaro y luego visualizo una variable&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h3&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ $nombre := &amp;#34;Manuel&amp;#34; }}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;Valor de variable $mi_nombre&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;Valor de variable $nombre&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;h2&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#c4a000&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;color:red&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;{{ $nombre}}&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;span&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;hr&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;&amp;gt;&lt;/span&gt;

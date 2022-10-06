@@ -113,6 +113,18 @@
                 href="http://manuel.infenlaces.com/dwes/hugo/en/categories/"
                 />
   </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/hugo/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://manuel.infenlaces.com/dwes/hugo/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://manuel.infenlaces.com/dwes/hugo/en/search/"
+                />
+  </url><url>
     <loc>http://manuel.infenlaces.com/dwes/hugo/en/tags/</loc>
     <xhtml:link
                 rel="alternate"

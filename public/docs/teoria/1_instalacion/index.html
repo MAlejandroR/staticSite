@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.103.1" /><META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<meta name="generator" content="Hugo 0.104.2" /><META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
 
 <link rel="shortcut icon" href="/dwes/hugo/favicons/favicon.ico" >
@@ -34,7 +34,7 @@
 <meta itemprop="description" content="Instalación e inicio de herramientas para el desarrollo y configuración
 "><meta itemprop="datePublished" content="2021-10-04T12:01:52+02:00" />
 <meta itemprop="dateModified" content="2021-10-04T12:01:52+02:00" />
-<meta itemprop="wordCount" content="658">
+<meta itemprop="wordCount" content="674">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Instalación"/>
 <meta name="twitter:description" content="Instalación e inicio de herramientas para el desarrollo y configuración
@@ -88,7 +88,7 @@
                    href="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Distancia/Contenido"
                    target="_blank" >
                     
-                    <img src='dwes/hugo/images/wikieducator.jpeg'  height=20px class='img-circle mr-2' />
+                    <img src='/dwes/hugo/images/wikieducator.jpeg'  height=20px class='img-circle mr-2' />
                     
                     <span>Wiki del curso</span>
                     
@@ -132,7 +132,7 @@
                    href="https://manuel.infenlaces.com/dwes/practicas"
                    target="_blank" >
                     
-                    <img src='images/php.jpeg'  height=20px class='img-circle mr-2' />
+                    <img src='/dwes/hugo/images/php.jpeg'  height=20px class='img-circle mr-2' />
                     
                     <span>php</span>
                     
@@ -220,14 +220,16 @@
   <a href="/dwes/hugo/docs/teoria/2_temas/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria2_temas"><span class="">Temas o layouts base</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria3_contenido-li">
   <a href="/dwes/hugo/docs/teoria/3_contenido/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria3_contenido"><span class="">Contenido</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria3_git-li">
+  <a href="/dwes/hugo/docs/teoria/3_git/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria3_git"><span class="">Uso básico de git</span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria4_shortcode-li">
   <a href="/dwes/hugo/docs/teoria/4_shortcode/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria4_shortcode"><span class="">Shortcode</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria5_estilo_plangilla-li">
-  <a href="/dwes/hugo/docs/teoria/5_estilo_plangilla/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria5_estilo_plangilla"><span class="">Personalizar la plantilla</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria6-multilenguaje-li">
-  <a href="/dwes/hugo/docs/teoria/6.-multilenguaje/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria6-multilenguaje"><span class="">Multilenguaje</span></a>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria7-plantillas-li">
-  <a href="/dwes/hugo/docs/teoria/7.-plantillas/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria7-plantillas"><span class="">Plantillas </span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria5_estilo_plantilla-li">
+  <a href="/dwes/hugo/docs/teoria/5_estilo_plantilla/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria5_estilo_plantilla"><span class="">Personalizar la plantilla</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria6_multilenguajes-li">
+  <a href="/dwes/hugo/docs/teoria/6_multilenguajes/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria6_multilenguajes"><span class="">Multilenguaje</span></a>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria7_plantillas-li">
+  <a href="/dwes/hugo/docs/teoria/7_plantillas/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria7_plantillas"><span class="">Plantillas </span></a>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-dweshugodocsteoria8-datos-li">
   <a href="/dwes/hugo/docs/teoria/8.-datos/" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id="m-dweshugodocsteoria8-datos"><span class="">Datos externos</span></a>
 </li>
@@ -453,15 +455,26 @@
 
 Si no tuviera <a href="https://snapcraft.io/docs/snap-documentation">snap</a> instalado</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install snapd
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>
+
+<div class="pageinfo pageinfo-primary">
+   <p><strong>Referencias para instalar en windows</strong></p>
+<hr>
+<p><a href="https://imalexissaez.github.io/2018/07/08/instalando-hugo-en-windows/">Blog instalar hugo en windows</a></p>
+<p><a href="https://github.com/gohugoio/hugo/releases">Versiones de hugo para diferentes plataformas</a></p>
+
+</div>
+
+
+
 
 <div class="pageinfo pageinfo-primary">
    <p>*Mejor instalamos con <strong>snap</strong> para obtener la versión última</p>
 
 </div>
 
-
-<p>Instalar con <em>apt-get</em> instala una versión 0.68 <strong>Versión actual 0.88</strong><br>
+</p>
+<p>Instalar con <em>apt-get</em> instala una versión 0.68 <strong>Versión actual v0.103.1-</strong><br>
 
 
 <div class="alert alert-warning" role="alert">

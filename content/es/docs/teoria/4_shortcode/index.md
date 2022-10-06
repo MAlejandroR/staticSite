@@ -63,7 +63,48 @@ Resultado
 {{<vimeo 146022717>}}
 ---
 En el caso de relearn, tenemos varios e interesantes [shorcodes de relearn](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/)  como vamos a ver. Visita la página y pruébalos cada uno.
+### Algunos shortcode de Relearn
+
+Puedes ver los [shortcodes](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/) de la plantilla de [relearn](https://mcshelby.github.io/hugo-theme-relearn/)
+
+*Para practicar debes de probar con los siguientes shortcodes
+#### button
+*El uso es con la siguiente sintaxis
+```shell
+{{%/* button href="referencia" /*%}}Label del botón{{% /button %}}
 ```
+*Podemos incluir  atributos según puedes ver en la web de referencia 
+
+#### attachments
+*Este shortcode es muy práctico e interesante. con él podemos conseguir que aparezcan una serie de ficheros para que el usuario pueda descargar
+*Consiste en colocar una carpeta de descargas con ficheros que queremos permitir que el usuario se descargue
+*Para usarlo tenemos dos circunstancias:
+1. Poner la carpeta de directamente bajo el directorio **content**
+> En este caso colocaremos una carpeta llamada *****files***** y bajo ella todos los ficheros que pretendamos dejar en descargas
+2. Poner la carpeta de descargas bajo otra subcarpeta del directorio **content**.
+> En este caso colocaremos una carpeta llamada *****_index.files***** y bajo ella todos los ficheros que pretendamos dejar en descargas
+
+Una vez colocada la carpeta con los ficheros, colocaremos en nuestro fichero *****md***** el shortcode
+*El uso es con la siguiente sintaxis
+
+`````go
+{{%/* attachments sort="asc" /*/%}}
+`````
+
+
+#### extends
+
+
+#### notice
+
+#### mermaind
+
+
+
+
+
+
+
 ### Práctica
 {{< alert title="Ahora practica tú " color="success" >}}
 Accede a la información de de [shortcode de la plantilla de relearn](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/)

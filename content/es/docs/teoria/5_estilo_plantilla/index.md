@@ -25,7 +25,7 @@ Debemos identificar las partes de una plantilla. Independientemente de la planti
 3. Menú principal
 Identifiquemos esos elementos en nuestra plantilla y veamos cómo modificarlos para personalizarla a nuestro gusto.
   
-En la imagen siguiente hemos identificado diferentes partes en la plantilla que vemos trans instalarla, sin ninguna modificación.
+En la imagen siguiente hemos identificado diferentes partes en la plantilla que vemos tras instalarla, sin ninguna modificación.
 
  **Partes de la plantilla**
 ___
@@ -78,20 +78,10 @@ Luego modificamos el fichero {{<color>}}logo.html{{</color>}} y sustituimos el e
                 <img src="/images/logo.png" alt="Logo del ciclo">
             Desarrollo Web
           </a>
-```
-Vemos la estructura de ficheros
-{{% pageinfo%}}
-**Estructura de ficheros**
 
----
-{{< imgproc estructura_directorios_logo Fit "600x800 center" >}}
-
-{{< /imgproc >}}
-
- 
-{{% /pageinfo%}}
 
 Y nos quedará la página con el logo actualizado
+```
 
 **Sitio web con el logo actualizado**
 ____
@@ -183,7 +173,7 @@ El color se carga, ya que en realidad lo que hacemos es establecer los **css** c
  {{< /imgproc >}}
 
 
-Si copiamos el fichero en nuestra ubicación **static/css/theme**También podemos crear nuestros propios ficheros css y cargarlos en nuestro proyecto, o modificar los valores de variables establecidos en el fichero de estilo css. Para ilustrar esta modificiación, copimos en nuestro directiro **./static/css** el fichero de variables css y modificamos el color de fondo donde se ubica el menú que estamos trabajando, colocando otro color.
+Si copiamos el fichero en nuestra ubicación **static/css/theme**También podemos crear nuestros propios ficheros css y cargarlos en nuestro proyecto, o modificar los valores de variables establecidos en el fichero de estilo css. Para ilustrar esta modificiación, copiamos en nuestro directiro **./static/css** el fichero de variables css y modificamos el color de fondo donde se ubica el menú que estamos trabajando, colocando otro color.
 Vamos a copiar **/themes/relearn/static/css/theme-relearn**  en **/static/css/theme-dwes.css**
 Ahora modificamos alguna de las variables de este tema y en el fichero de configuración especificamos que usamos este tema
 ```toml

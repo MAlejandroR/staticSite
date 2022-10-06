@@ -40,7 +40,7 @@ Por ejemplo podría tener una plantilla  personalizada, podríamos escribir lo s
 
 <h3>Declaro y luego visualizo una variable</h3>
 {{ $nombre := "Manuel" }}
-<h2>Valor de variable $mi_nombre</h2>
+<h2>Valor de variable $nombre</h2>
 <hr>
 <span style="color:red">{{ $nombre}}</span>
 <hr>

@@ -24,16 +24,19 @@
     <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/3_contenido/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/3_git/</loc>
+    <lastmod>2021-10-04T13:19:24+02:00</lastmod>
+  </url><url>
     <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/4_shortcode/</loc>
     <lastmod>2021-10-04T13:19:53+02:00</lastmod>
   </url><url>
-    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/5_estilo_plangilla/</loc>
+    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/5_estilo_plantilla/</loc>
     <lastmod>2021-10-22T16:23:31+02:00</lastmod>
   </url><url>
-    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/6.-multilenguaje/</loc>
+    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/6_multilenguajes/</loc>
     <lastmod>2021-10-05T20:02:27+02:00</lastmod>
   </url><url>
-    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/7.-plantillas/</loc>
+    <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/7_plantillas/</loc>
     <lastmod>2021-10-04T13:19:43+02:00</lastmod>
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/hugo/docs/teoria/8.-datos/</loc>
@@ -75,6 +78,18 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://manuel.infenlaces.com/dwes/hugo/categories/"
+                />
+  </url><url>
+    <loc>http://manuel.infenlaces.com/dwes/hugo/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://manuel.infenlaces.com/dwes/hugo/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://manuel.infenlaces.com/dwes/hugo/search/"
                 />
   </url><url>
     <loc>http://manuel.infenlaces.com/dwes/hugo/tags/</loc>

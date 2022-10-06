@@ -23,4 +23,12 @@ Todo esto, está hecho con el :heart: :smile:
 * Eficiencia
 * Consistencia de contenidos y formatos
 ---
+
+
 # Listado de la teoría:
+{{% pageinfo%}}
+ **Listado de páginas de referenica**
+ ***
+ [Manuale sencillos y muy completos](https://cloudcannon.com/community/learn/hugo-beginner-tutorial/)  
+>   *****https://cloudcannon.com/community/learn/hugo-beginner-tutorial/*****
+{{% /pageinfo%}}

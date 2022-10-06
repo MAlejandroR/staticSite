@@ -5,6 +5,7 @@ draft: false
 weight: 26
 description: "Crear el sitio multilingüe"
 ---
+
 {{% pageinfo %}}
 * Ver cómo establecer diferentes lenguajes en nuestro proyecto
 * https://gohugo.io/content-management/multilingual/
@@ -54,7 +55,7 @@ Vemos como las variables usadas son claras en su función. {{<color>}}weight{{</
 {{% pageinfo%}}
  **Listado de idiomas configurado**
  ***
-![imagen de lista de idiomas](/images/relearn/lang/listado_idiomas.png)
+![imagen de lista de idiomas](listado_idiomas.png)
 {{% /pageinfo%}}
 
 
