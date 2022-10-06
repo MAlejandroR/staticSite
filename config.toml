@@ -1,6 +1,6 @@
-#baseURL = 'https://malejandror.github.io/staticSite/'
+baseURL = 'https://malejandror.github.io/staticSite/'
 #baseURL = 'http://dwes.infenlaces.com/hugo/staticSite/public/'
-baseURL = 'http://manuel.infenlaces.com/dwes/hugo/'
+#baseURL = 'http://manuel.infenlaces.com/dwes/hugo/'
 languageCode = 'es-ES'
 title = 'DWES Distancia'
 theme =['docsy']
