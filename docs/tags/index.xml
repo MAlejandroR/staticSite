@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPIFP Los Enlaces – Tags</title>
-    <link>https://github.com/lmorillas/staticSite/tags/</link>
+    <link>https://lmorillas.github.io/staticSite/tags/</link>
     <description>Recent content in Tags on CPIFP Los Enlaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     
-	  <atom:link href="https://github.com/lmorillas/staticSite/tags/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://lmorillas.github.io/staticSite/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
       

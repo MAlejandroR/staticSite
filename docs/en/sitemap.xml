@@ -2,139 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/instalacion/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/instalacion/</loc>
     <lastmod>2021-10-04T12:01:52+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/contenido/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/contenido/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://github.com/lmorillas/staticSite/docs/"
+                href="https://lmorillas.github.io/staticSite/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/lmorillas/staticSite/en/docs/"
+                href="https://lmorillas.github.io/staticSite/en/docs/"
                 />
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://github.com/lmorillas/staticSite/docs/teoria/"
+                href="https://lmorillas.github.io/staticSite/docs/teoria/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/lmorillas/staticSite/en/docs/teoria/"
+                href="https://lmorillas.github.io/staticSite/en/docs/teoria/"
                 />
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/practicas/practica1/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/practicas/practica1/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/plantillas/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/plantillas/</loc>
     <lastmod>2021-10-04T13:19:43+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/shortcode/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/shortcode/</loc>
     <lastmod>2021-10-04T13:19:53+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/practicas/practica2/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/practicas/practica2/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/datos/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/datos/</loc>
     <lastmod>2021-10-04T13:20:01+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/busquedas/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/busquedas/</loc>
     <lastmod>2021-10-04T13:20:11+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/formularios/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/formularios/</loc>
     <lastmod>2021-10-04T13:20:20+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/</loc>
     <lastmod>2021-10-22T16:15:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://github.com/lmorillas/staticSite/"
+                href="https://lmorillas.github.io/staticSite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/lmorillas/staticSite/en/"
+                href="https://lmorillas.github.io/staticSite/en/"
                 />
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/estilo_plantilla/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/estilo_plantilla/</loc>
     <lastmod>2021-10-22T16:15:57+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/despliegue/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/despliegue/</loc>
     <lastmod>2021-10-14T12:19:33+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/ejemplo/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/ejemplo/</loc>
     <lastmod>2021-10-08T20:40:44+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/datos2/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/datos2/</loc>
     <lastmod>2021-10-06T14:41:21+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/multilenguaje/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/multilenguaje/</loc>
     <lastmod>2021-10-05T20:02:27+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/pruebas/t3/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/pruebas/t3/</loc>
     <lastmod>2021-10-05T13:00:36+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/pruebas/t2/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/pruebas/t2/</loc>
     <lastmod>2021-10-05T13:00:32+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/pruebas/t1/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/pruebas/t1/</loc>
     <lastmod>2021-10-05T13:00:30+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/pruebas/prueba/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/pruebas/prueba/</loc>
     <lastmod>2021-10-05T12:47:17+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/teoria/pruebas/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/teoria/pruebas/</loc>
     <lastmod>2021-10-05T12:13:07+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/docs/about/myself/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/docs/about/myself/</loc>
     <lastmod>2021-10-04T16:21:47+02:00</lastmod>
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/categories/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://github.com/lmorillas/staticSite/categories/"
+                href="https://lmorillas.github.io/staticSite/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/lmorillas/staticSite/en/categories/"
+                href="https://lmorillas.github.io/staticSite/en/categories/"
                 />
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/search/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://github.com/lmorillas/staticSite/search/"
+                href="https://lmorillas.github.io/staticSite/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/lmorillas/staticSite/en/search/"
+                href="https://lmorillas.github.io/staticSite/en/search/"
                 />
   </url><url>
-    <loc>https://github.com/lmorillas/staticSite/en/tags/</loc>
+    <loc>https://lmorillas.github.io/staticSite/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://github.com/lmorillas/staticSite/tags/"
+                href="https://lmorillas.github.io/staticSite/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://github.com/lmorillas/staticSite/en/tags/"
+                href="https://lmorillas.github.io/staticSite/en/tags/"
                 />
   </url>
 </urlset>
