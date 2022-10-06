@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lmorillas.github.io/staticSite/docs/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lmorillas.github.io/staticSite/en/docs/"
+                href="https://malejandror.github.io/staticSite/en/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://lmorillas.github.io/staticSite/docs/"
+                href="https://malejandror.github.io/staticSite/docs/"
                 />
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/1_instalacion/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/1_instalacion/</loc>
     <lastmod>2021-10-04T12:01:52+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/2_temas/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/2_temas/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/3_contenido/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/3_contenido/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/3_git/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/3_git/</loc>
     <lastmod>2021-10-04T13:19:24+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/4_shortcode/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/4_shortcode/</loc>
     <lastmod>2021-10-04T13:19:53+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/5_estilo_plantilla/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/5_estilo_plantilla/</loc>
     <lastmod>2021-10-22T16:23:31+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/6_multilenguajes/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/6_multilenguajes/</loc>
     <lastmod>2021-10-05T20:02:27+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/7_plantillas/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/7_plantillas/</loc>
     <lastmod>2021-10-04T13:19:43+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/8.-datos/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/8.-datos/</loc>
     <lastmod>2021-10-04T13:20:01+02:00</lastmod>
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/</loc>
+    <loc>https://malejandror.github.io/staticSite/</loc>
     <lastmod>2021-10-22T16:23:31+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lmorillas.github.io/staticSite/en/"
+                href="https://malejandror.github.io/staticSite/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://lmorillas.github.io/staticSite/"
+                href="https://malejandror.github.io/staticSite/"
                 />
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/docs/teoria/</loc>
+    <loc>https://malejandror.github.io/staticSite/docs/teoria/</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lmorillas.github.io/staticSite/en/docs/teoria/"
+                href="https://malejandror.github.io/staticSite/en/docs/teoria/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://lmorillas.github.io/staticSite/docs/teoria/"
+                href="https://malejandror.github.io/staticSite/docs/teoria/"
                 />
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/categories/</loc>
+    <loc>https://malejandror.github.io/staticSite/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lmorillas.github.io/staticSite/en/categories/"
+                href="https://malejandror.github.io/staticSite/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://lmorillas.github.io/staticSite/categories/"
+                href="https://malejandror.github.io/staticSite/categories/"
                 />
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/search/</loc>
+    <loc>https://malejandror.github.io/staticSite/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lmorillas.github.io/staticSite/en/search/"
+                href="https://malejandror.github.io/staticSite/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://lmorillas.github.io/staticSite/search/"
+                href="https://malejandror.github.io/staticSite/search/"
                 />
   </url><url>
-    <loc>https://lmorillas.github.io/staticSite/tags/</loc>
+    <loc>https://malejandror.github.io/staticSite/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lmorillas.github.io/staticSite/en/tags/"
+                href="https://malejandror.github.io/staticSite/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://lmorillas.github.io/staticSite/tags/"
+                href="https://malejandror.github.io/staticSite/tags/"
                 />
   </url>
 </urlset>

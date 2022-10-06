@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPIFP The Enlaces – The web</title>
-    <link>https://lmorillas.github.io/staticSite/en/docs/</link>
+    <link>https://malejandror.github.io/staticSite/en/docs/</link>
     <description>Recent content in The web on CPIFP The Enlaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://lmorillas.github.io/staticSite/en/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://malejandror.github.io/staticSite/en/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: Instalación</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/instalacion/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/instalacion/</link>
       <pubDate>Mon, 04 Oct 2021 12:01:52 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/instalacion/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/instalacion/</guid>
       <description>
         
         
@@ -188,10 +188,10 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
     
     <item>
       <title>Docs: Cómo añadir contenido</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/contenido/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/contenido/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:24 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/contenido/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/contenido/</guid>
       <description>
         
         
@@ -346,10 +346,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Plantillas</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/plantillas/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/plantillas/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:43 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/plantillas/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/plantillas/</guid>
       <description>
         
         
@@ -495,10 +495,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Shortcode</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/shortcode/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/shortcode/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:53 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/shortcode/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/shortcode/</guid>
       <description>
         
         
@@ -530,10 +530,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Segunda tarea</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/practicas/practica2/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/practicas/practica2/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/practicas/practica2/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/practicas/practica2/</guid>
       <description>
         
         
@@ -625,10 +625,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Datos externos</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/datos/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/datos/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:01 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/datos/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/datos/</guid>
       <description>
         
         
@@ -638,10 +638,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Busquedas</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/busquedas/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/busquedas/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:11 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/busquedas/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/busquedas/</guid>
       <description>
         
         
@@ -651,10 +651,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Formularios</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/formularios/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/formularios/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:20 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/formularios/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/formularios/</guid>
       <description>
         
         
@@ -664,10 +664,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Estilo_plantilla</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/estilo_plantilla/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/estilo_plantilla/</link>
       <pubDate>Fri, 22 Oct 2021 16:15:57 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/estilo_plantilla/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/estilo_plantilla/</guid>
       <description>
         
         
@@ -677,10 +677,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Despliegue</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/despliegue/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/despliegue/</link>
       <pubDate>Thu, 14 Oct 2021 12:19:33 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/despliegue/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/despliegue/</guid>
       <description>
         
         
@@ -690,10 +690,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Ejemplo</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/ejemplo/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/ejemplo/</link>
       <pubDate>Fri, 08 Oct 2021 20:40:44 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/ejemplo/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/ejemplo/</guid>
       <description>
         
         
@@ -718,10 +718,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Datos2</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/datos2/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/datos2/</link>
       <pubDate>Wed, 06 Oct 2021 14:41:21 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/datos2/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/datos2/</guid>
       <description>
         
         
@@ -732,10 +732,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Multilenguaje</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/multilenguaje/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/multilenguaje/</link>
       <pubDate>Tue, 05 Oct 2021 20:02:27 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/multilenguaje/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/multilenguaje/</guid>
       <description>
         
         
@@ -745,10 +745,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: T3</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/pruebas/t3/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/pruebas/t3/</link>
       <pubDate>Tue, 05 Oct 2021 13:00:36 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/pruebas/t3/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/pruebas/t3/</guid>
       <description>
         
         
@@ -758,10 +758,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: T2</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/pruebas/t2/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/pruebas/t2/</link>
       <pubDate>Tue, 05 Oct 2021 13:00:32 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/pruebas/t2/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/pruebas/t2/</guid>
       <description>
         
         
@@ -771,10 +771,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: T1</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/pruebas/t1/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/pruebas/t1/</link>
       <pubDate>Tue, 05 Oct 2021 13:00:30 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/pruebas/t1/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/pruebas/t1/</guid>
       <description>
         
         
@@ -784,10 +784,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Prueba</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/pruebas/prueba/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/pruebas/prueba/</link>
       <pubDate>Tue, 05 Oct 2021 12:47:17 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/pruebas/prueba/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/pruebas/prueba/</guid>
       <description>
         
         
@@ -798,10 +798,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: pruebas</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/teoria/pruebas/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/teoria/pruebas/</link>
       <pubDate>Tue, 05 Oct 2021 12:13:07 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/teoria/pruebas/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/teoria/pruebas/</guid>
       <description>
         
         
@@ -812,10 +812,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Myself</title>
-      <link>https://lmorillas.github.io/staticSite/en/docs/about/myself/</link>
+      <link>https://malejandror.github.io/staticSite/en/docs/about/myself/</link>
       <pubDate>Mon, 04 Oct 2021 16:21:47 +0200</pubDate>
       
-      <guid>https://lmorillas.github.io/staticSite/en/docs/about/myself/</guid>
+      <guid>https://malejandror.github.io/staticSite/en/docs/about/myself/</guid>
       <description>
         
         
