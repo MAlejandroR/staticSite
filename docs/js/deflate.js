@@ -369,7 +369,7 @@ const deflate = (function () {
             zip_prev[zip_WSIZE + j] = 0;
         /* prev will be initialized on the fly */
 
-        /* Set the _default configuration parameters:
+        /* Set the default configuration parameters:
             */
         zip_max_lazy_match = zip_configuration_table[zip_compr_level].max_lazy;
         zip_good_match = zip_configuration_table[zip_compr_level].good_length;

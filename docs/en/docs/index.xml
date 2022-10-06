@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPIFP The Enlaces – The web</title>
-    <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/</link>
+    <link>https://github.com/lmorillas/staticSite/en/docs/</link>
     <description>Recent content in The web on CPIFP The Enlaces</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://manuel.infenlaces.com/dwes/hugo/en/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://github.com/lmorillas/staticSite/en/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Docs: Instalación</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/instalacion/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/instalacion/</link>
       <pubDate>Mon, 04 Oct 2021 12:01:52 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/instalacion/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/instalacion/</guid>
       <description>
         
         
@@ -35,7 +35,7 @@
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Recuerda:&lt;/p&gt;
+&lt;p&gt;Recuerda:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Instalar la herramienta hugo&lt;/li&gt;
 &lt;li&gt;Configurar el &lt;strong&gt;path&lt;/strong&gt; del sistema para acceder desde cualquier invocación&lt;/li&gt;
@@ -44,7 +44,6 @@
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;p&gt;
 
@@ -59,6 +58,8 @@
 
 
 
+  
+  
 
 
 
@@ -72,36 +73,79 @@
 
 
 
+  
+  
 
 
 
 
+
+  
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
 
 
 
 
 
 &lt;ul class=&#34;nav nav-tabs&#34; id=&#34;tabs-1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;
-      &lt;a class=&#34;nav-link active tab-apt-get&#34;
-        id=&#34;tabs-1-0-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-1-0&#34; role=&#34;tab&#34; onclick=&#34;handleClick(&amp;#34;apt-get&amp;#34;);&#34;
-        aria-controls=&#34;tabs-1-0&#34; aria-selected=&#34;true&#34;&gt;
-        apt-get
-      &lt;/a&gt;
-    &lt;/li&gt;&lt;li class=&#34;nav-item&#34;&gt;
-      &lt;a class=&#34;nav-link tab-snap&#34;
-        id=&#34;tabs-1-1-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-1-1&#34; role=&#34;tab&#34; onclick=&#34;handleClick(&amp;#34;snap&amp;#34;);&#34;
-        aria-controls=&#34;tabs-1-1&#34; aria-selected=&#34;false&#34;&gt;
-        snap
-      &lt;/a&gt;
-    &lt;/li&gt;&lt;/ul&gt;
+      &lt;a class=&#34;nav-link active persistLang-shell&#34;
+          id=&#34;tabs-01-00-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-01-00&#34; role=&#34;tab&#34;
+          onclick=&#34;persistLang(&amp;#34;shell&amp;#34;);&#34;
+        aria-controls=&#34;tabs-01-00&#34; aria-selected=&#34;false&#34;&gt;apt-get&lt;/a&gt;
+    &lt;/li&gt;
+
+    
+      
+    &lt;li class=&#34;nav-item&#34;&gt;
+      &lt;a class=&#34;nav-link persistLang-shell&#34;
+          id=&#34;tabs-01-01-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#tabs-01-01&#34; role=&#34;tab&#34;
+          onclick=&#34;persistLang(&amp;#34;shell&amp;#34;);&#34;
+        aria-controls=&#34;tabs-01-01&#34; aria-selected=&#34;false&#34;&gt;snap&lt;/a&gt;
+    &lt;/li&gt;
+
+    
+      
+    &lt;/ul&gt;
+
+
 
 
 &lt;div class=&#34;tab-content&#34; id=&#34;tabs-1-content&#34;&gt;&lt;div class=&#34;tab-pane fade show active&#34;
-        id=&#34;tabs-1-0&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-1-0-tab&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo apt-get install hugo
+        id=&#34;tabs-01-00&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-01-00-tab&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo apt-get install hugo
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+    
+      
+    
+
   &lt;div class=&#34;tab-pane fade&#34;
-        id=&#34;tabs-1-1&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-1-1-tab&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo snap install hugo --classic
+        id=&#34;tabs-01-01&#34; role=&#34;tabpanel&#34; aria-labelled-by=&#34;tabs-01-01-tab&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    sudo snap install hugo --classic
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+    
+      
+    
+
   
 &lt;/div&gt;
 
@@ -110,10 +154,9 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;*Mejor instalamos con &lt;strong&gt;snap&lt;/strong&gt; para obtener la versión última&lt;/p&gt;
+&lt;p&gt;*Mejor instalamos con &lt;strong&gt;snap&lt;/strong&gt; para obtener la versión última&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;p&gt;Esta opción actualmente instala una versión 0.68 &lt;em&gt;&lt;strong&gt;La actual es 0.88&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Otra opción es instalar con  snap , o bien descargar el paquete de la web  &lt;a href=&#34;https://gohugo.io&#34;&gt;Página de hugo&lt;/a&gt;&lt;/p&gt;
@@ -145,17 +188,17 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
     
     <item>
       <title>Docs: Cómo añadir contenido</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/contenido/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/contenido/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:24 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/contenido/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/contenido/</guid>
       <description>
         
         
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Objetivo&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objetivo&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Estructurar contenido para mejorar la visualización del sitio.&lt;/li&gt;
 &lt;li&gt;Organizar los contenidos que vamos a publicar (Orgnaizaremos por directorios y ficheros)&lt;/li&gt;
@@ -167,7 +210,6 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 &lt;/ul&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;qué-estructura-tiene-el-contenido-de-las-páginas&#34;&gt;¿Qué estructura tiene el contenido de las páginas?&lt;/h2&gt;
 &lt;ul&gt;
@@ -186,7 +228,7 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;&lt;strong&gt;Creando un fichero md&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creando un fichero md&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new docs/prueba.md
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;Genera un fichero con el siguiente contenido&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000&#34;&gt;---&lt;/span&gt;
@@ -196,7 +238,6 @@ Si no tuviera &lt;a href=&#34;https://snapcraft.io/docs/snap-documentation&#34;&
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#000&#34;&gt;---&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
-
 
 &lt;strong&gt;Las páginas en el directorio content&lt;/strong&gt;
 *Las páginas ubicadas directamente en el directorio &lt;strong&gt;content&lt;/strong&gt; serían páginas que podríamos decir globales o bundles pages: contacto, about, datos relevantes, &amp;hellip;.&lt;/p&gt;
@@ -305,17 +346,17 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Plantillas</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/plantillas/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/plantillas/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:43 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/plantillas/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/plantillas/</guid>
       <description>
         
         
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Algunas notas sobre el trabajo con las plantillas:&lt;/p&gt;
+&lt;p&gt;Algunas notas sobre el trabajo con las plantillas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sintaxis básica de las plantillas en Hugo&lt;/li&gt;
 &lt;li&gt;Organización de las plantillas. Directorio &lt;code&gt;layout&lt;/code&gt;&lt;/li&gt;
@@ -325,7 +366,6 @@ content/posts/_index.md
 &lt;p&gt;&lt;strong&gt;Documentación:&lt;/strong&gt;  &lt;a href=&#34;https://gohugo.io/templates/&#34;&gt;https://gohugo.io/templates/&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;sintaxis-básica&#34;&gt;Sintaxis básica&lt;/h2&gt;
 &lt;p&gt;Acceso a variables predefinidas:&lt;/p&gt;
@@ -455,22 +495,21 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Shortcode</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/shortcode/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/shortcode/</link>
       <pubDate>Mon, 04 Oct 2021 13:19:53 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/shortcode/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/shortcode/</guid>
       <description>
         
         
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Extensiones a markdown.&lt;/p&gt;
+&lt;p&gt;Extensiones a markdown.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANTE:&lt;/strong&gt; Se usan dentro del texto &lt;strong&gt;.md&lt;/strong&gt; no en las plantillas&lt;/p&gt;
 &lt;p&gt;Doc: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes&#34;&gt;https://gohugo.io/content-management/shortcodes&lt;/a&gt;&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;p&gt;Ejemplo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go-html-template&#34; data-lang=&#34;go-html-template&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -491,20 +530,19 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Segunda tarea</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/practicas/practica2/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/practicas/practica2/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/practicas/practica2/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/practicas/practica2/</guid>
       <description>
         
         
         
 
 &lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
-   &lt;p&gt;Introducción a Hugo. Primer sitio sencillo&lt;/p&gt;
+&lt;p&gt;Introducción a Hugo. Primer sitio sencillo&lt;/p&gt;
 
 &lt;/div&gt;
-
 
 &lt;h2 id=&#34;creación-del-sitio&#34;&gt;Creación del sitio&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ hugo new site primeros-pasos
@@ -587,10 +625,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Datos externos</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/datos/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/datos/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:01 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/datos/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/datos/</guid>
       <description>
         
         
@@ -600,10 +638,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Busquedas</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/busquedas/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/busquedas/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:11 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/busquedas/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/busquedas/</guid>
       <description>
         
         
@@ -613,10 +651,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Formularios</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/formularios/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/formularios/</link>
       <pubDate>Mon, 04 Oct 2021 13:20:20 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/formularios/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/formularios/</guid>
       <description>
         
         
@@ -626,10 +664,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Estilo_plantilla</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/estilo_plantilla/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/estilo_plantilla/</link>
       <pubDate>Fri, 22 Oct 2021 16:15:57 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/estilo_plantilla/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/estilo_plantilla/</guid>
       <description>
         
         
@@ -639,10 +677,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Despliegue</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/despliegue/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/despliegue/</link>
       <pubDate>Thu, 14 Oct 2021 12:19:33 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/despliegue/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/despliegue/</guid>
       <description>
         
         
@@ -652,10 +690,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Ejemplo</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/ejemplo/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/ejemplo/</link>
       <pubDate>Fri, 08 Oct 2021 20:40:44 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/ejemplo/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/ejemplo/</guid>
       <description>
         
         
@@ -680,10 +718,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Datos2</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/datos2/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/datos2/</link>
       <pubDate>Wed, 06 Oct 2021 14:41:21 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/datos2/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/datos2/</guid>
       <description>
         
         
@@ -694,10 +732,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Multilenguaje</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/multilenguaje/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/multilenguaje/</link>
       <pubDate>Tue, 05 Oct 2021 20:02:27 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/multilenguaje/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/multilenguaje/</guid>
       <description>
         
         
@@ -707,10 +745,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: T3</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/t3/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/pruebas/t3/</link>
       <pubDate>Tue, 05 Oct 2021 13:00:36 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/t3/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/pruebas/t3/</guid>
       <description>
         
         
@@ -720,10 +758,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: T2</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/t2/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/pruebas/t2/</link>
       <pubDate>Tue, 05 Oct 2021 13:00:32 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/t2/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/pruebas/t2/</guid>
       <description>
         
         
@@ -733,10 +771,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: T1</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/t1/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/pruebas/t1/</link>
       <pubDate>Tue, 05 Oct 2021 13:00:30 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/t1/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/pruebas/t1/</guid>
       <description>
         
         
@@ -746,10 +784,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Prueba</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/prueba/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/pruebas/prueba/</link>
       <pubDate>Tue, 05 Oct 2021 12:47:17 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/pruebas/prueba/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/pruebas/prueba/</guid>
       <description>
         
         
@@ -760,10 +798,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: pruebas</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/pruebas/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/teoria/pruebas/</link>
       <pubDate>Tue, 05 Oct 2021 12:13:07 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/teoria/pruebas/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/teoria/pruebas/</guid>
       <description>
         
         
@@ -774,10 +812,10 @@ content/posts/_index.md
     
     <item>
       <title>Docs: Myself</title>
-      <link>http://manuel.infenlaces.com/dwes/hugo/en/docs/about/myself/</link>
+      <link>https://github.com/lmorillas/staticSite/en/docs/about/myself/</link>
       <pubDate>Mon, 04 Oct 2021 16:21:47 +0200</pubDate>
       
-      <guid>http://manuel.infenlaces.com/dwes/hugo/en/docs/about/myself/</guid>
+      <guid>https://github.com/lmorillas/staticSite/en/docs/about/myself/</guid>
       <description>
         
         
